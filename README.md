@@ -16,4 +16,4 @@
     - If it still don't work, dunno what'll do.
 
 # Todo
-- [ ]: Add slack notifier
+- [ ] Add slack notifier
