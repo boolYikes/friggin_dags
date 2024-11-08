@@ -8,7 +8,7 @@
 # Setup
 - Run ./setup.sh
 
-# Trouble shooting
+# Troubleshooting
 - Constant webserver sync worker sigkill
     - Maybe try reducing worker numbers or using gevent worker.
     - 1. `docker network inspect bridge` and get the container subnet address.
@@ -17,5 +17,7 @@
 - No such python package error:
     - Try installing it on the worker container as well as the scheduler container.
     - Or just add the package to the `_pip_additional_requirements` in the compose yaml.
+- Punch your monitor.
+
 # Todo
 - [ ] Add slack notifier
