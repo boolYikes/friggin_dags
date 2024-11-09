@@ -18,10 +18,13 @@
 - No such python package error:
     - Try installing it on the worker container as well as the scheduler container.
     - Or just add the package to the `_pip_additional_requirements` in the compose yaml.
-- Don't want to use them fudgin S3!!!
+- Don't want to use them fudgin S3 cuz S3 stands for 3 asses?
     - sql to csv to sftp >  to redshift dag
+    - or store csv locally!
     - you can do this with two dags with a trigger
-# Todo
+    ![alt text](image-1.png)
+    - that's what you get for trying new things 😫
+# Todos
 - [ ] Add slack notifier
 
 # Sticky
@@ -29,14 +32,15 @@
     - Deleeeeeeeeeeeete
     - Inseeeeeeeeeeeeeert
 - Incremental update:
+    - Init table if not exists
     - Copy from existing table to temp
     - Extract from source and insert it to temp also
     - Comb thru it using rownumber for latest records for each identifiers
     - Clean up the existing table
     - Push the filtered table to the existing table.
 - When performing backfill:
-    - source table must have created, modified, deleted fields
-    - execution_date is used for incremental updates
+    - source table must have `created`, `modified`, `deleted` fields or something along that line
+    - `execution_date` is used for incremental updates and is injected automatically to dags' each task
     - catchup set to True
     - start_date/end_date -> backfill period
     - account for execution date and idempotency.
