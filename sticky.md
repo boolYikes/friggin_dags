@@ -1,0 +1,32 @@
+- Full refresh:
+    - Deleeeeeeeeeeeete
+    - Inseeeeeeeeeeeeeert
+- Incremental update:
+    - Init table if not exists
+    - Copy from existing table to temp
+    - Extract from source and insert it to temp also
+    - Comb thru it using rownumber for latest records for each identifiers
+    - Clean up the existing table
+    - Push the filtered table to the existing table.
+- When performing backfill:
+    - source table must have `created`, `modified`, `deleted` fields or something along that line
+    - `execution_date` is used for incremental updates and is injected automatically to dags' each task
+    - catchup set to True
+    - start_date/end_date -> backfill period
+    - account for execution date and idempotency.
+- Best practice
+    - Don't underestimate the importance of pipeline meta data cataloguing
+    - Which includes ownership and data lineage
+    - Data QC: I/O data
+    - Full refresh is preferred up until you hit the overhead
+    - If it can't be helped, consider backfill incremental update
+    - Cleanup (data, table, dag)
+- docker-compose.yaml
+    - exports values under 'environment:' section
+    - pip req syntax is ${_REQUIREMENTS:- package1 package2}
+    - docker volumes under 'volumes' section
+    - init commands in airflow-init
+- etl, elt
+    - used temp-original swapping method
+    - input and output validations
+    - config-style query for end-user ease of use
