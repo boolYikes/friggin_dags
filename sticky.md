@@ -1,3 +1,12 @@
+# Airflow 101
+- Dags?
+- How to run them
+- Jinja templating
+    - `{{ scope_implicit_variable }}` ex> `{{ ds }}` : reads execution_date
+    - Jinja eligible Operators can be distinguished by inspecting their parameter docs. (marked 'templated')
+    - Can use it on Variables and Connections
+
+# Airflow 202
 - Full refresh:
     - Deleeeeeeeeeeeete
     - Inseeeeeeeeeeeeeert
@@ -23,10 +32,41 @@
     - Cleanup (data, table, dag)
 - docker-compose.yaml
     - exports values under 'environment:' section
-    - pip req syntax is ${_REQUIREMENTS:- package1 package2}
+    - pip req syntax is `${_REQUIREMENTS:- package1 package2}`, note the space bw the face :-) and the variables
     - docker volumes under 'volumes' section
     - init commands in airflow-init
 - etl, elt
     - used temp-original swapping method
     - input and output validations
     - config-style query for end-user ease of use
+
+# Airflow advanced
+- Config api is forbidden unless you have `AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'true'` in your docker-compose environment section
+- Variables set with `export AIRFLOW_VARIABLE_` from cli or from docker-compose will not appear in the Variable API
+- To do this, use `airflow varibles set source_variable_name variable_name_to_save`
+- Sensor?
+    - ExternalTaskSensor, FileSensor, HttpSensor, SqlSensor, TimeSensor...
+    - periodical poking
+    - mode: sleep between pokes or release resources?
+    - Explicit (TriggerDagRunOperator)
+        - A triggers B
+    - Reactive (ExternalTaskSensor)
+        - B waits for A
+        - execution date must match
+    - Branch tasks by conditions (BranchPythonOperator)
+    - LatestOnlyOperator
+    - Force through even when the prior tasks fail
+- Trigger Rules?
+    - decide what to do afterwards depending on the prior tasks results
+    - Operators have trigger_rule param
+    - all_success(default), all_failed, all_done, one_failed, one_success, none_failed ...
+- Task Grouping
+    - can nest groups
+    - can be queued with >>
+    - grouped inside with clause with the TaskGroup class
+    - is visualized as diagrams on the web ui dag's graphs section
+- Dynamic Dag
+    - refactoring
+    - prevent writing similar codes over again
+    - utilize Jinja and yaml to template your python script
+    - write yaml (inputs) -> write template dag in .jinja2 -> generator.py
