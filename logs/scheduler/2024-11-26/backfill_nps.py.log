@@ -2277,3 +2277,1137 @@
 [2024-11-26T08:54:24.018+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:54:24.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-11-26T08:54:24.030+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:54:24.030+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
 [2024-11-26T08:54:24.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.227 seconds
+[2024-11-26T08:54:55.042+0000] {processor.py:161} INFO - Started process (PID=3632) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T08:54:55.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T08:54:55.051+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:54:55.051+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T08:54:55.232+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T08:54:55.248+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:54:55.248+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T08:54:55.259+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:54:55.259+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T08:54:55.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.234 seconds
+[2024-11-26T08:55:26.240+0000] {processor.py:161} INFO - Started process (PID=3645) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T08:55:26.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T08:55:26.241+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:55:26.241+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T08:55:26.422+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T08:55:26.437+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:55:26.437+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T08:55:26.448+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:55:26.448+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T08:55:26.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.237 seconds
+[2024-11-26T08:55:57.439+0000] {processor.py:161} INFO - Started process (PID=3658) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T08:55:57.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T08:55:57.450+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:55:57.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T08:55:57.631+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T08:55:57.646+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:55:57.646+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T08:55:57.658+0000] {logging_mixin.py:188} INFO - [2024-11-26T08:55:57.658+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T08:55:57.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.237 seconds
+[2024-11-26T13:17:27.768+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:17:27.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:17:27.776+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:17:27.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:17:28.161+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:17:28.225+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:17:28.225+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:17:28.235+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:17:28.235+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:17:28.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.489 seconds
+[2024-11-26T13:17:58.433+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:17:58.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:17:58.440+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:17:58.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:17:58.736+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:17:58.750+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:17:58.750+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:17:58.761+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:17:58.761+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:17:58.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.348 seconds
+[2024-11-26T13:18:28.941+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:18:28.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:18:28.943+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:18:28.943+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:18:29.245+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:18:29.259+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:18:29.259+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:18:29.271+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:18:29.271+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:18:29.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.352 seconds
+[2024-11-26T13:18:59.455+0000] {processor.py:161} INFO - Started process (PID=104) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:18:59.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:18:59.457+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:18:59.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:18:59.755+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:18:59.770+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:18:59.770+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:18:59.781+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:18:59.780+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:18:59.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.340 seconds
+[2024-11-26T13:19:29.959+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:19:29.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:19:29.968+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:19:29.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:19:30.264+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:19:30.278+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:19:30.278+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:19:30.288+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:19:30.288+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:19:30.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.349 seconds
+[2024-11-26T13:20:00.473+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:20:00.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:20:00.474+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:20:00.474+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:20:00.772+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:20:00.786+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:20:00.786+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:20:00.797+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:20:00.797+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:20:00.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.339 seconds
+[2024-11-26T13:20:30.986+0000] {processor.py:161} INFO - Started process (PID=143) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:20:30.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:20:30.994+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:20:30.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:20:31.300+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:20:31.314+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:20:31.314+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:20:31.325+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:20:31.325+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:20:31.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.358 seconds
+[2024-11-26T13:21:01.508+0000] {processor.py:161} INFO - Started process (PID=156) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:21:01.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:21:01.516+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:21:01.516+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:21:01.817+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:21:01.831+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:21:01.831+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:21:01.841+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:21:01.841+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:21:01.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.349 seconds
+[2024-11-26T13:21:32.057+0000] {processor.py:161} INFO - Started process (PID=169) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:21:32.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:21:32.072+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:21:32.072+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:21:32.377+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:21:32.391+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:21:32.391+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:21:32.401+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:21:32.401+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:21:32.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.364 seconds
+[2024-11-26T13:22:02.602+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:22:02.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:22:02.626+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:22:02.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:22:02.928+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:22:02.942+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:22:02.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:22:02.952+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:22:02.952+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:22:02.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.373 seconds
+[2024-11-26T13:22:33.165+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:22:33.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:22:33.249+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:22:33.249+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:22:33.552+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:22:33.566+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:22:33.566+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:22:33.577+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:22:33.576+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:22:33.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.433 seconds
+[2024-11-26T13:23:03.758+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:23:03.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:23:03.782+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:23:03.782+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:23:04.078+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:23:04.092+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:23:04.092+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:23:04.102+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:23:04.102+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:23:04.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.363 seconds
+[2024-11-26T13:23:34.266+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:23:34.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:23:34.273+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:23:34.272+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:23:34.565+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:23:34.579+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:23:34.578+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:23:34.589+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:23:34.589+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:23:34.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.338 seconds
+[2024-11-26T13:24:04.742+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:24:04.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:24:04.765+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:24:04.765+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:24:05.036+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:24:05.049+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:24:05.049+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:24:05.060+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:24:05.060+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:24:05.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.335 seconds
+[2024-11-26T13:24:35.263+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:24:35.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:24:35.268+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:24:35.268+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:24:35.542+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:24:35.557+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:24:35.556+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:24:35.568+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:24:35.568+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:24:35.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.327 seconds
+[2024-11-26T13:25:05.729+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:25:05.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:25:05.740+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:25:05.740+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:25:06.017+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:25:06.031+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:25:06.030+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:25:06.041+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:25:06.041+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:25:06.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.334 seconds
+[2024-11-26T13:25:36.196+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:25:36.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:25:36.198+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:25:36.198+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:25:36.477+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:25:36.490+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:25:36.490+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:25:36.501+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:25:36.500+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:25:36.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.318 seconds
+[2024-11-26T13:26:06.661+0000] {processor.py:161} INFO - Started process (PID=292) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:26:06.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:26:06.667+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:26:06.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:26:06.941+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:26:06.955+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:26:06.954+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:26:06.965+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:26:06.965+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:26:06.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.317 seconds
+[2024-11-26T13:26:37.550+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:26:37.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:26:37.551+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:26:37.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:26:37.855+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:26:37.869+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:26:37.869+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:26:37.880+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:26:37.880+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:26:37.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.345 seconds
+[2024-11-26T13:27:08.083+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:27:08.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:27:08.107+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:27:08.107+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:27:08.394+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:27:08.408+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:27:08.408+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:27:08.419+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:27:08.419+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:27:08.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.356 seconds
+[2024-11-26T13:27:38.607+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:27:38.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:27:38.608+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:27:38.608+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:27:38.884+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:27:38.897+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:27:38.897+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:27:38.907+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:27:38.907+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:27:38.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.316 seconds
+[2024-11-26T13:28:09.502+0000] {processor.py:161} INFO - Started process (PID=345) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:28:09.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:28:09.537+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:28:09.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:28:09.836+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:28:09.850+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:28:09.850+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:28:09.862+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:28:09.861+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:28:09.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.378 seconds
+[2024-11-26T13:28:40.072+0000] {processor.py:161} INFO - Started process (PID=358) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:28:40.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:28:40.073+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:28:40.073+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:28:40.372+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:28:40.387+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:28:40.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:28:40.397+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:28:40.397+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:28:40.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.341 seconds
+[2024-11-26T13:29:10.626+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:29:10.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:29:10.657+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:29:10.657+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:29:10.981+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:29:10.996+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:29:10.996+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:29:11.006+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:29:11.006+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:29:11.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.401 seconds
+[2024-11-26T13:29:41.302+0000] {processor.py:161} INFO - Started process (PID=386) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:29:41.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:29:41.304+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:29:41.304+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:29:41.598+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:29:41.612+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:29:41.612+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:29:41.623+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:29:41.622+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:29:41.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.338 seconds
+[2024-11-26T13:30:11.885+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:30:11.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:30:11.946+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:30:11.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:30:12.222+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:30:12.235+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:30:12.235+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:30:12.246+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:30:12.246+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:30:12.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.987 seconds
+[2024-11-26T13:30:43.012+0000] {processor.py:161} INFO - Started process (PID=413) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:30:43.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:30:43.014+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:30:43.013+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:30:43.296+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:30:43.310+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:30:43.309+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:30:43.320+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:30:43.320+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:30:43.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.323 seconds
+[2024-11-26T13:31:13.548+0000] {processor.py:161} INFO - Started process (PID=426) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:31:13.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:31:13.558+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:31:13.558+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:31:13.841+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:31:13.855+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:31:13.855+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:31:13.865+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:31:13.865+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:31:13.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.330 seconds
+[2024-11-26T13:31:44.081+0000] {processor.py:161} INFO - Started process (PID=439) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:31:44.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:31:44.083+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:31:44.083+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:31:44.360+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:31:44.373+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:31:44.373+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:31:44.383+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:31:44.383+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:31:44.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.319 seconds
+[2024-11-26T13:32:14.629+0000] {processor.py:161} INFO - Started process (PID=452) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:32:14.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:32:14.634+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:32:14.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:32:14.911+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:32:14.925+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:32:14.924+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:32:14.935+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:32:14.935+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:32:14.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.325 seconds
+[2024-11-26T13:32:45.176+0000] {processor.py:161} INFO - Started process (PID=465) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:32:45.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:32:45.178+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:32:45.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:32:45.460+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:32:45.473+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:32:45.473+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:32:45.484+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:32:45.484+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:32:45.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.322 seconds
+[2024-11-26T13:33:15.720+0000] {processor.py:161} INFO - Started process (PID=478) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:33:15.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:33:15.731+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:33:15.731+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:33:16.004+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:33:16.018+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:33:16.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:33:16.028+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:33:16.028+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:33:16.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.330 seconds
+[2024-11-26T13:33:46.259+0000] {processor.py:161} INFO - Started process (PID=491) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:33:46.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:33:46.260+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:33:46.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:33:46.534+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:33:46.547+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:33:46.547+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:33:46.558+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:33:46.558+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:33:46.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.315 seconds
+[2024-11-26T13:34:16.728+0000] {processor.py:161} INFO - Started process (PID=504) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:34:16.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:34:16.737+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:34:16.736+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:34:17.012+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:34:17.025+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:34:17.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:34:17.036+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:34:17.035+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:34:17.053+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.329 seconds
+[2024-11-26T13:34:47.260+0000] {processor.py:161} INFO - Started process (PID=517) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:34:47.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:34:47.262+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:34:47.262+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:34:47.540+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:34:47.553+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:34:47.553+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:34:47.564+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:34:47.564+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:34:47.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.319 seconds
+[2024-11-26T13:35:17.797+0000] {processor.py:161} INFO - Started process (PID=530) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:35:17.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:35:17.799+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:35:17.799+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:35:18.078+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:35:18.093+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:35:18.092+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:35:18.103+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:35:18.103+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:35:18.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.325 seconds
+[2024-11-26T13:35:48.330+0000] {processor.py:161} INFO - Started process (PID=543) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:35:48.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:35:48.331+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:35:48.331+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:35:48.613+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:35:48.627+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:35:48.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:35:48.637+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:35:48.637+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:35:48.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.326 seconds
+[2024-11-26T13:36:18.866+0000] {processor.py:161} INFO - Started process (PID=556) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:36:18.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:36:18.867+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:36:18.867+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:36:19.139+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:36:19.152+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:36:19.152+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:36:19.162+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:36:19.162+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:36:19.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.313 seconds
+[2024-11-26T13:36:49.394+0000] {processor.py:161} INFO - Started process (PID=569) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:36:49.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:36:49.395+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:36:49.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:36:49.672+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:36:49.685+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:36:49.685+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:36:49.696+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:36:49.696+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:36:49.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.319 seconds
+[2024-11-26T13:37:19.924+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:37:19.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:37:19.934+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:37:19.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:37:20.209+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:37:20.223+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:37:20.222+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:37:20.233+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:37:20.233+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:37:20.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.322 seconds
+[2024-11-26T13:37:50.470+0000] {processor.py:161} INFO - Started process (PID=595) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:37:50.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:37:50.472+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:37:50.472+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:37:50.747+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:37:50.761+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:37:50.760+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:37:50.771+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:37:50.771+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:37:50.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.318 seconds
+[2024-11-26T13:38:21.003+0000] {processor.py:161} INFO - Started process (PID=608) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:38:21.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:38:21.011+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:38:21.010+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:38:21.284+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:38:21.298+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:38:21.298+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:38:21.309+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:38:21.309+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:38:21.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.319 seconds
+[2024-11-26T13:38:51.535+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:38:51.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:38:51.536+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:38:51.536+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:38:51.819+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:38:51.832+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:38:51.832+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:38:51.843+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:38:51.843+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:38:51.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.320 seconds
+[2024-11-26T13:39:22.052+0000] {processor.py:161} INFO - Started process (PID=634) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:39:22.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:39:22.067+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:39:22.066+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:39:22.337+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:39:22.351+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:39:22.351+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:39:22.361+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:39:22.361+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:39:22.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.326 seconds
+[2024-11-26T13:39:52.592+0000] {processor.py:161} INFO - Started process (PID=647) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:39:52.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:39:52.593+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:39:52.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:39:52.866+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:39:52.879+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:39:52.879+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:39:52.889+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:39:52.889+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:39:52.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.319 seconds
+[2024-11-26T13:40:23.042+0000] {processor.py:161} INFO - Started process (PID=659) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:40:23.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:40:23.051+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:40:23.051+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:40:23.324+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:40:23.337+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:40:23.337+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:40:23.348+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:40:23.348+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:40:23.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.321 seconds
+[2024-11-26T13:40:53.493+0000] {processor.py:161} INFO - Started process (PID=670) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:40:53.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:40:53.494+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:40:53.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:40:53.768+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:40:53.782+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:40:53.781+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:40:53.793+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:40:53.793+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:40:53.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.313 seconds
+[2024-11-26T13:41:23.941+0000] {processor.py:161} INFO - Started process (PID=681) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:41:23.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:41:23.942+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:41:23.941+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:41:24.217+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:41:24.231+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:41:24.231+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:41:24.241+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:41:24.241+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:41:24.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.317 seconds
+[2024-11-26T13:41:54.379+0000] {processor.py:161} INFO - Started process (PID=692) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:41:54.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:41:54.380+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:41:54.379+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:41:54.660+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:41:54.674+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:41:54.674+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:41:54.684+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:41:54.684+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:41:54.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.322 seconds
+[2024-11-26T13:42:24.831+0000] {processor.py:161} INFO - Started process (PID=703) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:42:24.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:42:24.834+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:42:24.834+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:42:25.104+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:42:25.118+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:42:25.118+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:42:25.129+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:42:25.129+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:42:25.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.312 seconds
+[2024-11-26T13:42:55.863+0000] {processor.py:161} INFO - Started process (PID=716) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:42:55.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:42:55.864+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:42:55.863+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:42:56.152+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:42:56.165+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:42:56.165+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:42:56.177+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:42:56.177+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:42:56.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.329 seconds
+[2024-11-26T13:43:26.337+0000] {processor.py:161} INFO - Started process (PID=729) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:43:26.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:43:26.347+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:26.346+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:43:26.634+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:43:26.648+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:26.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:43:26.658+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:26.658+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:43:26.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.337 seconds
+[2024-11-26T13:43:56.897+0000] {processor.py:161} INFO - Started process (PID=742) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:43:56.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:43:56.898+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:56.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:43:57.191+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:43:57.204+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:57.204+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:43:57.215+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:57.215+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:43:57.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.331 seconds
+[2024-11-26T13:44:27.628+0000] {processor.py:161} INFO - Started process (PID=755) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:44:27.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:44:27.655+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:27.655+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:44:27.969+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:44:27.983+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:27.983+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:44:27.995+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:27.995+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:44:28.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.385 seconds
+[2024-11-26T13:44:58.233+0000] {processor.py:161} INFO - Started process (PID=768) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:44:58.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:44:58.234+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:58.234+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:44:58.527+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:44:58.541+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:58.541+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:44:58.553+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:58.553+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:44:58.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.334 seconds
+[2024-11-26T13:45:28.792+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:45:28.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:45:28.802+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:28.801+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:45:29.091+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:45:29.105+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:29.105+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:45:29.116+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:29.115+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:45:29.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.338 seconds
+[2024-11-26T13:45:59.343+0000] {processor.py:161} INFO - Started process (PID=794) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:45:59.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:45:59.344+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:59.344+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:45:59.653+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:45:59.666+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:59.666+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:45:59.677+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:59.677+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:45:59.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.361 seconds
+[2024-11-26T13:46:29.965+0000] {processor.py:161} INFO - Started process (PID=807) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:46:29.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:46:29.969+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:46:29.969+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:46:30.259+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:46:30.272+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:46:30.272+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:46:30.284+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:46:30.284+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:46:30.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.332 seconds
+[2024-11-26T13:47:00.537+0000] {processor.py:161} INFO - Started process (PID=820) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:47:00.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:47:00.538+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:00.538+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:47:00.826+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:47:00.840+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:00.840+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:47:00.852+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:00.852+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:47:00.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.334 seconds
+[2024-11-26T13:47:31.092+0000] {processor.py:161} INFO - Started process (PID=833) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:47:31.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:47:31.103+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:31.103+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:47:31.394+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:47:31.408+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:31.407+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:47:31.418+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:31.418+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:47:31.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.363 seconds
+[2024-11-26T13:48:01.686+0000] {processor.py:161} INFO - Started process (PID=846) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:48:01.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:48:01.687+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:01.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:48:01.973+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:48:01.987+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:01.987+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:48:01.998+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:01.998+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:48:02.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.333 seconds
+[2024-11-26T13:48:32.166+0000] {processor.py:161} INFO - Started process (PID=859) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:48:32.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:48:32.169+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:32.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:48:32.465+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:48:32.480+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:32.480+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:48:32.491+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:32.491+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:48:32.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.345 seconds
+[2024-11-26T13:49:02.726+0000] {processor.py:161} INFO - Started process (PID=872) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:49:02.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:49:02.727+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:02.727+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:49:03.016+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:49:03.030+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:03.030+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:49:03.041+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:03.041+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:49:03.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.330 seconds
+[2024-11-26T13:49:33.196+0000] {processor.py:161} INFO - Started process (PID=885) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:49:33.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:49:33.205+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:33.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:49:33.500+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:49:33.514+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:33.513+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:49:33.524+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:33.524+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:49:33.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.342 seconds
+[2024-11-26T13:50:03.759+0000] {processor.py:161} INFO - Started process (PID=898) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:50:03.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:50:03.760+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:03.759+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:50:04.049+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:50:04.063+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:04.062+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:50:04.073+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:04.073+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:50:04.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.334 seconds
+[2024-11-26T13:50:34.474+0000] {processor.py:161} INFO - Started process (PID=911) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:50:34.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:50:34.484+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:34.484+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:50:34.772+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:50:34.786+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:34.785+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:50:34.797+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:34.797+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:50:34.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.343 seconds
+[2024-11-26T13:51:04.972+0000] {processor.py:161} INFO - Started process (PID=924) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:51:04.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:51:04.973+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:04.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:51:05.268+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:51:05.282+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:05.282+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:51:05.293+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:05.293+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:51:05.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.338 seconds
+[2024-11-26T13:51:35.526+0000] {processor.py:161} INFO - Started process (PID=943) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:51:35.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:51:35.530+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:35.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:51:35.832+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:51:35.845+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:35.845+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:51:35.856+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:35.856+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:51:35.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.348 seconds
+[2024-11-26T13:52:06.090+0000] {processor.py:161} INFO - Started process (PID=956) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:52:06.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:52:06.091+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:06.091+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:52:06.377+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:52:06.391+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:06.391+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:52:06.403+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:06.402+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:52:06.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.338 seconds
+[2024-11-26T13:52:36.589+0000] {processor.py:161} INFO - Started process (PID=969) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:52:36.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:52:36.596+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:36.596+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:52:36.867+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:52:36.880+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:36.880+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:52:36.891+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:36.891+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:52:36.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.321 seconds
+[2024-11-26T13:53:07.133+0000] {processor.py:161} INFO - Started process (PID=982) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:53:07.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:53:07.134+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:07.134+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:53:07.409+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:53:07.423+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:07.423+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:53:07.433+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:07.433+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:53:07.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.320 seconds
+[2024-11-26T13:53:37.695+0000] {processor.py:161} INFO - Started process (PID=995) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:53:37.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:53:37.733+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:37.733+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:53:38.008+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:53:38.022+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:38.022+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:53:38.032+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:38.032+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:53:38.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.352 seconds
+[2024-11-26T13:54:08.372+0000] {processor.py:161} INFO - Started process (PID=1008) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:54:08.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:54:08.373+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:08.373+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:54:08.647+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:54:08.660+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:08.660+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:54:08.670+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:08.670+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:54:08.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.320 seconds
+[2024-11-26T13:54:38.844+0000] {processor.py:161} INFO - Started process (PID=1021) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:54:38.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:54:38.849+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:38.849+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:54:39.120+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:54:39.133+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:39.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:54:39.144+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:39.144+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:54:39.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.320 seconds
+[2024-11-26T13:55:09.309+0000] {processor.py:161} INFO - Started process (PID=1034) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:55:09.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:55:09.310+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:09.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:55:09.581+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:55:09.594+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:09.594+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:55:09.605+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:09.605+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:55:09.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.317 seconds
+[2024-11-26T13:55:39.885+0000] {processor.py:161} INFO - Started process (PID=1047) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:55:39.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:55:39.895+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:39.895+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:55:40.173+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:55:40.187+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:40.186+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:55:40.197+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:40.197+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:55:40.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.356 seconds
+[2024-11-26T13:56:10.374+0000] {processor.py:161} INFO - Started process (PID=1060) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:56:10.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:56:10.376+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:10.375+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:56:10.647+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:56:10.660+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:10.660+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:56:10.671+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:10.671+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:56:10.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.318 seconds
+[2024-11-26T13:56:40.915+0000] {processor.py:161} INFO - Started process (PID=1073) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:56:40.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:56:40.916+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:40.916+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:56:41.186+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:56:41.200+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:41.199+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:56:41.211+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:41.211+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:56:41.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.504 seconds
+[2024-11-26T13:57:12.126+0000] {processor.py:161} INFO - Started process (PID=1086) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:57:12.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:57:12.127+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:12.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:57:12.416+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:57:12.430+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:12.430+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:57:12.441+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:12.441+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:57:12.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.331 seconds
+[2024-11-26T13:57:42.615+0000] {processor.py:161} INFO - Started process (PID=1099) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:57:42.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:57:42.616+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:42.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:57:42.905+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:57:42.919+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:42.918+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:57:42.929+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:42.929+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:57:42.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.335 seconds
+[2024-11-26T13:58:13.170+0000] {processor.py:161} INFO - Started process (PID=1112) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:58:13.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:58:13.170+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:13.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:58:13.462+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:58:13.476+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:13.476+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:58:13.487+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:13.487+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:58:13.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.333 seconds
+[2024-11-26T13:58:43.652+0000] {processor.py:161} INFO - Started process (PID=1125) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:58:43.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:58:43.659+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:43.659+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:58:43.968+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:58:43.982+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:43.981+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:58:43.994+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:43.993+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:58:44.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.364 seconds
+[2024-11-26T13:59:14.334+0000] {processor.py:161} INFO - Started process (PID=1138) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:59:14.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:59:14.335+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:14.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:59:14.628+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:59:14.642+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:14.642+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:59:14.653+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:14.653+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:59:14.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.336 seconds
+[2024-11-26T13:59:44.922+0000] {processor.py:161} INFO - Started process (PID=1151) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:59:44.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T13:59:44.933+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:44.933+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:59:45.227+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T13:59:45.241+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:45.240+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:59:45.251+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:45.251+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T13:59:45.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.342 seconds
+[2024-11-26T14:00:15.569+0000] {processor.py:161} INFO - Started process (PID=1164) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:00:15.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:00:15.570+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:15.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:00:15.857+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:00:15.871+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:15.871+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:00:15.882+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:15.882+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:00:15.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.329 seconds
+[2024-11-26T14:00:46.118+0000] {processor.py:161} INFO - Started process (PID=1177) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:00:46.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:00:46.131+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:46.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:00:46.418+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:00:46.432+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:46.432+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:00:46.443+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:46.443+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:00:46.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.344 seconds
+[2024-11-26T14:01:16.752+0000] {processor.py:161} INFO - Started process (PID=1190) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:01:16.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:01:16.753+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:16.753+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:01:17.044+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:01:17.058+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:17.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:01:17.069+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:17.069+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:01:17.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.333 seconds
+[2024-11-26T14:01:47.315+0000] {processor.py:161} INFO - Started process (PID=1203) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:01:47.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:01:47.318+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:47.318+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:01:47.603+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:01:47.617+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:47.617+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:01:47.628+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:47.628+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:01:47.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.355 seconds
+[2024-11-26T14:02:17.966+0000] {processor.py:161} INFO - Started process (PID=1216) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:02:17.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:02:17.967+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:17.967+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:02:18.261+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:02:18.274+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:18.274+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:02:18.286+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:18.285+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:02:18.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.338 seconds
+[2024-11-26T14:02:48.523+0000] {processor.py:161} INFO - Started process (PID=1229) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:02:48.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:02:48.535+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:48.535+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:02:48.821+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:02:48.839+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:48.839+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:02:48.854+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:48.854+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:02:48.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.345 seconds
+[2024-11-26T14:03:19.092+0000] {processor.py:161} INFO - Started process (PID=1242) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:03:19.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:03:19.093+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:19.093+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:03:19.382+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:03:19.398+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:19.398+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:03:19.409+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:19.409+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:03:19.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.339 seconds
+[2024-11-26T14:03:49.588+0000] {processor.py:161} INFO - Started process (PID=1255) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:03:49.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:03:49.622+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:49.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:03:49.909+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:03:49.923+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:49.923+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:03:49.934+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:49.933+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:03:49.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.366 seconds
+[2024-11-26T14:04:20.175+0000] {processor.py:161} INFO - Started process (PID=1268) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:04:20.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:04:20.176+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:20.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:04:20.459+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:04:20.473+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:20.473+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:04:20.484+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:20.484+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:04:20.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.322 seconds
+[2024-11-26T14:04:50.712+0000] {processor.py:161} INFO - Started process (PID=1281) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:04:50.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:04:50.718+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:50.718+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:04:51.009+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:04:51.022+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:51.022+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:04:51.034+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:51.033+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:04:51.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.339 seconds
+[2024-11-26T14:05:21.281+0000] {processor.py:161} INFO - Started process (PID=1294) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:05:21.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:05:21.282+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:21.281+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:05:21.566+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:05:21.580+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:21.580+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:05:21.591+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:21.591+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:05:21.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.323 seconds
+[2024-11-26T14:05:51.752+0000] {processor.py:161} INFO - Started process (PID=1307) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:05:51.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:05:51.764+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:51.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:05:52.052+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:05:52.065+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:52.065+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:05:52.076+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:52.076+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:05:52.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.345 seconds
+[2024-11-26T14:06:22.382+0000] {processor.py:161} INFO - Started process (PID=1320) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:06:22.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:06:22.383+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:22.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:06:22.671+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:06:22.685+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:22.685+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:06:22.696+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:22.696+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:06:22.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.328 seconds
+[2024-11-26T14:06:52.855+0000] {processor.py:161} INFO - Started process (PID=1333) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:06:52.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:06:52.951+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:52.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:06:53.253+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:06:53.266+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:53.266+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:06:53.277+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:53.277+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:06:53.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.439 seconds
+[2024-11-26T14:07:23.509+0000] {processor.py:161} INFO - Started process (PID=1346) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:07:23.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:07:23.510+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:23.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:07:23.810+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:07:23.824+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:23.824+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:07:23.834+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:23.834+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:07:23.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.338 seconds
+[2024-11-26T14:07:54.021+0000] {processor.py:161} INFO - Started process (PID=1359) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:07:54.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:07:54.032+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:54.032+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:07:54.319+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:07:54.332+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:54.332+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:07:54.343+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:54.342+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:07:54.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.344 seconds
+[2024-11-26T14:08:24.571+0000] {processor.py:161} INFO - Started process (PID=1372) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:08:24.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:08:24.572+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:24.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:08:24.858+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:08:24.872+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:24.872+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:08:24.883+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:24.883+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:08:24.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.327 seconds
+[2024-11-26T14:08:55.115+0000] {processor.py:161} INFO - Started process (PID=1385) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:08:55.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:08:55.124+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:55.123+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:08:55.411+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:08:55.425+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:55.425+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:08:55.436+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:55.436+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:08:55.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.336 seconds
+[2024-11-26T14:09:25.664+0000] {processor.py:161} INFO - Started process (PID=1398) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:09:25.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:09:25.665+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:25.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:09:25.962+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:09:25.976+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:25.976+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:09:25.987+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:25.987+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:09:26.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.340 seconds
+[2024-11-26T14:09:56.153+0000] {processor.py:161} INFO - Started process (PID=1411) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:09:56.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:09:56.159+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:56.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:09:56.446+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:09:56.460+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:56.459+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:09:56.470+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:56.470+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:09:56.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.335 seconds
+[2024-11-26T14:10:26.699+0000] {processor.py:161} INFO - Started process (PID=1424) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:10:26.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:10:26.700+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:10:26.699+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:10:26.982+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:10:26.996+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:10:26.996+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:10:27.007+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:10:27.007+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:10:27.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.322 seconds
+[2024-11-26T14:10:57.174+0000] {processor.py:161} INFO - Started process (PID=1437) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:10:57.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:10:57.179+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:10:57.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:10:57.465+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:10:57.479+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:10:57.478+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:10:57.490+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:10:57.489+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:10:57.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.330 seconds
+[2024-11-26T14:11:27.722+0000] {processor.py:161} INFO - Started process (PID=1450) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:11:27.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:11:27.723+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:27.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:11:28.012+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:11:28.026+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:28.026+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:11:28.036+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:28.036+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:11:28.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.335 seconds
+[2024-11-26T14:11:58.266+0000] {processor.py:161} INFO - Started process (PID=1463) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:11:58.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:11:58.275+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:58.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:11:58.556+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:11:58.569+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:58.569+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:11:58.580+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:58.579+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:11:58.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.335 seconds
+[2024-11-26T14:12:28.745+0000] {processor.py:161} INFO - Started process (PID=1476) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:12:28.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:12:28.746+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:28.745+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:12:29.047+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:12:29.062+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:29.062+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:12:29.075+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:29.074+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:12:29.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.350 seconds
+[2024-11-26T14:12:59.360+0000] {processor.py:161} INFO - Started process (PID=1489) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:12:59.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:12:59.361+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:59.361+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:12:59.654+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:12:59.669+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:59.668+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:12:59.679+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:59.679+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:12:59.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.337 seconds
+[2024-11-26T14:13:29.905+0000] {processor.py:161} INFO - Started process (PID=1502) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:13:29.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:13:29.906+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:13:29.906+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:13:30.214+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:13:30.228+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:13:30.228+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:13:30.239+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:13:30.239+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:13:30.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.356 seconds
+[2024-11-26T14:14:00.482+0000] {processor.py:161} INFO - Started process (PID=1515) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:14:00.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:14:00.483+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:00.483+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:14:00.771+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:14:00.785+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:00.785+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:14:00.795+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:00.795+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:14:00.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.333 seconds
+[2024-11-26T14:14:31.033+0000] {processor.py:161} INFO - Started process (PID=1528) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:14:31.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:14:31.034+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:31.033+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:14:31.320+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:14:31.334+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:31.333+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:14:31.345+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:31.345+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:14:31.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.335 seconds
+[2024-11-26T14:15:01.574+0000] {processor.py:161} INFO - Started process (PID=1541) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:15:01.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:15:01.577+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:01.576+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:15:01.872+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:15:01.887+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:01.886+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:15:01.898+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:01.897+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:15:01.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.337 seconds
+[2024-11-26T14:15:32.125+0000] {processor.py:161} INFO - Started process (PID=1554) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:15:32.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:15:32.126+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:32.126+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:15:32.416+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:15:32.430+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:32.429+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:15:32.440+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:32.440+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:15:32.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.330 seconds
+[2024-11-26T14:16:02.676+0000] {processor.py:161} INFO - Started process (PID=1567) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:16:02.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:16:02.683+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:02.683+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:16:02.972+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:16:02.986+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:02.986+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:16:02.996+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:02.996+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:16:03.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.342 seconds
+[2024-11-26T14:16:33.223+0000] {processor.py:161} INFO - Started process (PID=1580) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:16:33.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:16:33.224+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:33.223+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:16:33.511+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:16:33.525+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:33.525+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:16:33.536+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:33.536+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:16:33.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.328 seconds
+[2024-11-26T14:17:03.776+0000] {processor.py:161} INFO - Started process (PID=1593) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:17:03.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:17:03.783+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:03.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:17:04.070+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:17:04.084+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:04.084+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:17:04.095+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:04.095+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:17:04.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.339 seconds
+[2024-11-26T14:17:34.333+0000] {processor.py:161} INFO - Started process (PID=1606) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:17:34.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:17:34.334+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:34.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:17:34.632+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:17:34.645+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:34.645+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:17:34.656+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:34.656+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:17:34.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.335 seconds
+[2024-11-26T14:18:04.888+0000] {processor.py:161} INFO - Started process (PID=1619) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:18:04.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:18:04.900+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:04.900+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:18:05.194+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:18:05.208+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:05.207+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:18:05.218+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:05.218+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:18:05.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.353 seconds
+[2024-11-26T14:18:35.486+0000] {processor.py:161} INFO - Started process (PID=1632) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:18:35.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:18:35.487+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:35.487+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:18:35.778+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:18:35.791+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:35.791+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:18:35.803+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:35.803+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:18:35.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.339 seconds
+[2024-11-26T14:19:05.966+0000] {processor.py:161} INFO - Started process (PID=1645) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:19:05.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:19:05.976+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:05.976+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:19:06.266+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:19:06.281+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:06.280+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:19:06.291+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:06.291+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:19:06.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.342 seconds
+[2024-11-26T14:19:36.524+0000] {processor.py:161} INFO - Started process (PID=1658) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:19:36.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:19:36.525+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:36.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:19:36.819+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:19:36.833+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:36.833+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:19:36.844+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:36.843+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:19:36.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.337 seconds
+[2024-11-26T14:20:07.015+0000] {processor.py:161} INFO - Started process (PID=1671) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:20:07.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:20:07.032+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:07.032+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:20:07.339+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:20:07.352+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:07.352+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:20:07.363+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:07.363+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:20:07.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.401 seconds
+[2024-11-26T14:20:37.618+0000] {processor.py:161} INFO - Started process (PID=1690) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:20:37.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:20:37.619+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:37.619+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:20:37.908+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:20:37.921+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:37.921+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:20:37.932+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:37.932+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:20:37.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.330 seconds
+[2024-11-26T14:21:08.185+0000] {processor.py:161} INFO - Started process (PID=1703) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:21:08.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:21:08.195+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:08.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:21:08.487+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:21:08.501+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:08.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:21:08.512+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:08.512+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:21:08.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.348 seconds
+[2024-11-26T14:21:38.736+0000] {processor.py:161} INFO - Started process (PID=1716) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:21:38.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:21:38.737+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:38.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:21:39.026+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:21:39.039+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:39.039+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:21:39.050+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:39.050+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:21:39.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.329 seconds
+[2024-11-26T14:22:09.284+0000] {processor.py:161} INFO - Started process (PID=1729) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:22:09.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:22:09.291+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:09.291+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:22:09.583+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:22:09.597+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:09.597+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:22:09.607+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:09.607+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:22:09.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.344 seconds
+[2024-11-26T14:22:39.855+0000] {processor.py:161} INFO - Started process (PID=1742) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:22:39.856+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:22:39.856+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:39.856+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:22:40.153+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:22:40.166+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:40.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:22:40.177+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:40.177+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:22:40.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.337 seconds
+[2024-11-26T14:23:10.395+0000] {processor.py:161} INFO - Started process (PID=1755) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:23:10.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:23:10.400+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:10.399+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:23:10.697+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:23:10.712+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:10.712+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:23:10.722+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:10.722+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:23:10.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.340 seconds
+[2024-11-26T14:23:40.951+0000] {processor.py:161} INFO - Started process (PID=1768) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:23:40.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:23:40.951+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:40.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:23:41.239+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:23:41.253+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:41.252+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:23:41.263+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:41.263+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:23:41.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.328 seconds
+[2024-11-26T14:24:11.489+0000] {processor.py:161} INFO - Started process (PID=1781) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:24:11.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:24:11.496+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:11.496+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:24:11.787+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:24:11.800+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:11.800+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:24:11.812+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:11.812+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:24:11.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.343 seconds
+[2024-11-26T14:24:42.044+0000] {processor.py:161} INFO - Started process (PID=1794) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:24:42.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:24:42.045+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:42.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:24:42.333+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:24:42.347+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:42.347+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:24:42.358+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:42.358+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:24:42.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.331 seconds
+[2024-11-26T14:25:12.588+0000] {processor.py:161} INFO - Started process (PID=1807) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:25:12.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:25:12.593+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:12.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:25:12.893+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:25:12.908+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:12.907+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:25:12.919+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:12.919+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:25:12.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.351 seconds
+[2024-11-26T14:25:43.079+0000] {processor.py:161} INFO - Started process (PID=1820) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:25:43.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:25:43.080+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:43.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:25:43.365+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:25:43.379+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:43.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:25:43.389+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:43.389+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:25:43.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.332 seconds
+[2024-11-26T14:26:13.563+0000] {processor.py:161} INFO - Started process (PID=1833) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:26:13.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:26:13.598+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:13.598+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:26:13.896+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:26:13.910+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:13.910+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:26:13.921+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:13.921+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:26:13.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.371 seconds
+[2024-11-26T14:26:44.073+0000] {processor.py:161} INFO - Started process (PID=1846) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:26:44.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:26:44.074+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:44.074+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:26:44.372+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:26:44.392+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:44.391+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:26:44.404+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:44.404+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:26:44.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.375 seconds
+[2024-11-26T14:27:14.601+0000] {processor.py:161} INFO - Started process (PID=1859) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:27:14.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:27:14.602+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:14.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:27:14.897+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:27:14.912+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:14.912+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:27:14.923+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:14.923+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:27:14.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.340 seconds
+[2024-11-26T14:27:45.100+0000] {processor.py:161} INFO - Started process (PID=1872) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:27:45.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:27:45.114+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:45.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:27:45.427+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:27:45.441+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:45.441+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:27:45.451+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:45.451+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:27:45.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.365 seconds
+[2024-11-26T14:28:15.670+0000] {processor.py:161} INFO - Started process (PID=1885) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:28:15.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:28:15.671+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:15.670+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:28:15.967+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:28:15.981+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:15.981+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:28:15.993+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:15.992+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:28:16.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.348 seconds
+[2024-11-26T14:28:46.337+0000] {processor.py:161} INFO - Started process (PID=1898) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:28:46.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:28:46.338+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:46.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:28:46.633+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:28:46.647+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:46.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:28:46.658+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:46.658+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:28:46.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.345 seconds
+[2024-11-26T14:29:16.831+0000] {processor.py:161} INFO - Started process (PID=1911) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:29:16.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:29:16.832+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:16.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:29:17.124+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:29:17.138+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:17.137+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:29:17.148+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:17.148+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:29:17.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.334 seconds
+[2024-11-26T14:29:47.417+0000] {processor.py:161} INFO - Started process (PID=1924) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:29:47.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:29:47.421+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:47.420+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:29:47.709+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:29:47.722+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:47.722+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:29:47.733+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:47.733+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:29:47.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.332 seconds
+[2024-11-26T14:30:17.958+0000] {processor.py:161} INFO - Started process (PID=1937) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:30:17.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:30:17.959+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:17.959+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:30:18.250+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:30:18.263+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:18.263+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:30:18.274+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:18.274+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:30:18.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.333 seconds
+[2024-11-26T14:30:48.438+0000] {processor.py:161} INFO - Started process (PID=1950) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:30:48.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:30:48.446+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:48.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:30:48.737+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:30:48.751+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:48.750+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:30:48.762+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:48.762+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:30:48.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.346 seconds
+[2024-11-26T14:31:18.997+0000] {processor.py:161} INFO - Started process (PID=1963) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:31:18.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:31:18.998+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:18.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:31:19.285+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:31:19.299+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:19.299+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:31:19.309+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:19.309+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:31:19.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.330 seconds
+[2024-11-26T14:31:49.571+0000] {processor.py:161} INFO - Started process (PID=1976) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:31:49.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:31:49.583+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:49.583+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:31:49.869+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:31:49.883+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:49.883+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:31:49.893+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:49.893+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:31:49.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.341 seconds
+[2024-11-26T14:32:20.058+0000] {processor.py:161} INFO - Started process (PID=1989) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:32:20.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:32:20.059+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:20.059+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:32:20.352+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:32:20.366+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:20.365+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:32:20.377+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:20.377+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:32:20.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.335 seconds
+[2024-11-26T14:32:50.556+0000] {processor.py:161} INFO - Started process (PID=2002) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:32:50.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:32:50.568+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:50.568+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:32:50.859+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:32:50.873+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:50.873+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:32:50.884+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:50.883+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:32:50.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.341 seconds
+[2024-11-26T14:33:21.111+0000] {processor.py:161} INFO - Started process (PID=2015) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:33:21.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:33:21.112+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:21.112+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:33:21.402+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:33:21.416+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:21.415+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:33:21.426+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:21.426+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:33:21.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.329 seconds
+[2024-11-26T14:33:51.669+0000] {processor.py:161} INFO - Started process (PID=2028) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:33:51.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:33:51.675+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:51.674+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:33:51.966+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:33:51.980+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:51.979+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:33:51.990+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:51.990+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:33:52.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.336 seconds
+[2024-11-26T14:34:22.216+0000] {processor.py:161} INFO - Started process (PID=2041) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:34:22.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:34:22.217+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:22.217+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:34:22.510+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:34:22.523+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:22.523+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:34:22.534+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:22.534+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:34:22.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.341 seconds
+[2024-11-26T14:34:52.707+0000] {processor.py:161} INFO - Started process (PID=2054) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:34:52.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:34:52.741+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:52.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:34:53.039+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:34:53.052+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:53.052+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:34:53.063+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:53.063+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:34:53.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.373 seconds
+[2024-11-26T14:35:23.297+0000] {processor.py:161} INFO - Started process (PID=2067) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:35:23.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:35:23.298+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:23.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:35:23.573+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:35:23.588+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:23.588+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:35:23.599+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:23.599+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:35:23.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.317 seconds
+[2024-11-26T14:35:53.751+0000] {processor.py:161} INFO - Started process (PID=2080) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:35:53.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:35:53.756+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:53.756+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:35:54.027+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:35:54.040+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:54.040+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:35:54.051+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:54.051+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:35:54.062+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.315 seconds
+[2024-11-26T14:36:24.217+0000] {processor.py:161} INFO - Started process (PID=2093) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:36:24.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:36:24.218+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:24.217+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:36:24.493+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:36:24.506+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:24.506+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:36:24.517+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:24.517+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:36:24.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.331 seconds
+[2024-11-26T14:36:54.699+0000] {processor.py:161} INFO - Started process (PID=2106) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:36:54.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:36:54.709+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:54.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:36:54.979+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:36:54.992+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:54.992+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:36:55.003+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:55.003+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:36:55.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.321 seconds
+[2024-11-26T14:37:25.233+0000] {processor.py:161} INFO - Started process (PID=2119) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:37:25.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:37:25.234+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:25.233+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:37:25.510+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:37:25.524+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:25.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:37:25.535+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:25.534+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:37:25.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.321 seconds
+[2024-11-26T14:37:55.785+0000] {processor.py:161} INFO - Started process (PID=2132) to work on /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:37:55.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/backfill_nps.py for tasks to queue
+[2024-11-26T14:37:55.805+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:55.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:37:56.076+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_redshift_backfill' retrieved from /opt/airflow/dags/backfill_nps.py
+[2024-11-26T14:37:56.090+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:56.089+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:37:56.100+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:56.100+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_redshift_backfill to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T14:37:56.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/backfill_nps.py took 0.334 seconds

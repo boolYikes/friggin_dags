@@ -1,0 +1,770 @@
+[2024-11-26T13:42:29.643+0000] {processor.py:161} INFO - Started process (PID=708) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:42:29.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:42:29.644+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:42:29.644+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:42:29.653+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:42:29.722+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:42:29.722+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:42:29.734+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:42:29.734+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:42:29.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.116 seconds
+[2024-11-26T13:43:00.230+0000] {processor.py:161} INFO - Started process (PID=721) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:43:00.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:43:00.231+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:00.231+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:43:00.239+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:43:00.256+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:00.256+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:43:00.269+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:00.269+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:43:00.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.052 seconds
+[2024-11-26T13:43:30.707+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:43:30.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:43:30.724+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:30.723+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:43:30.731+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:43:30.748+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:30.748+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:43:30.762+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:43:30.762+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:43:30.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.079 seconds
+[2024-11-26T13:44:01.265+0000] {processor.py:161} INFO - Started process (PID=747) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:44:01.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:44:01.266+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:01.266+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:44:01.274+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:44:01.291+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:01.291+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:44:01.305+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:01.305+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:44:01.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.244 seconds
+[2024-11-26T13:44:32.052+0000] {processor.py:161} INFO - Started process (PID=760) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:44:32.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:44:32.063+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:32.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:44:32.070+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:44:32.088+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:32.087+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:44:32.101+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:44:32.101+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:44:32.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.062 seconds
+[2024-11-26T13:45:02.601+0000] {processor.py:161} INFO - Started process (PID=773) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:45:02.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:45:02.602+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:02.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:45:02.610+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:45:02.627+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:02.627+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:45:02.641+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:02.640+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:45:02.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.067 seconds
+[2024-11-26T13:45:33.165+0000] {processor.py:161} INFO - Started process (PID=786) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:45:33.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:45:33.178+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:33.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:45:33.185+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:45:33.202+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:33.202+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:45:33.215+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:45:33.215+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:45:33.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.067 seconds
+[2024-11-26T13:46:03.740+0000] {processor.py:161} INFO - Started process (PID=799) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:46:03.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:46:03.741+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:46:03.740+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:46:03.748+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:46:03.766+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:46:03.765+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:46:03.779+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:46:03.779+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:46:03.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.108 seconds
+[2024-11-26T13:46:34.335+0000] {processor.py:161} INFO - Started process (PID=812) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:46:34.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:46:34.355+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:46:34.355+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:46:34.363+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:46:34.382+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:46:34.382+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:46:34.397+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:46:34.396+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:46:34.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.085 seconds
+[2024-11-26T13:47:04.905+0000] {processor.py:161} INFO - Started process (PID=831) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:47:04.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:47:04.906+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:04.906+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:47:04.914+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:47:04.931+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:04.931+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:47:04.944+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:04.944+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:47:04.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.058 seconds
+[2024-11-26T13:47:35.496+0000] {processor.py:161} INFO - Started process (PID=844) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:47:35.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:47:35.508+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:35.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:47:35.515+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:47:35.533+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:35.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:47:35.546+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:47:35.546+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:47:35.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.071 seconds
+[2024-11-26T13:48:06.058+0000] {processor.py:161} INFO - Started process (PID=857) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:48:06.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:48:06.059+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:06.058+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:48:06.066+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:48:06.083+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:06.083+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:48:06.097+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:06.097+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:48:06.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.062 seconds
+[2024-11-26T13:48:36.551+0000] {processor.py:161} INFO - Started process (PID=870) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:48:36.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:48:36.554+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:36.554+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:48:36.561+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:48:36.578+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:36.578+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:48:36.592+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:48:36.592+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:48:36.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.062 seconds
+[2024-11-26T13:49:07.096+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:49:07.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:49:07.096+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:07.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:49:07.104+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:49:07.121+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:07.121+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:49:07.134+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:07.134+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:49:07.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.061 seconds
+[2024-11-26T13:49:37.579+0000] {processor.py:161} INFO - Started process (PID=896) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:49:37.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:49:37.587+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:37.587+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:49:37.595+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:49:37.612+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:37.612+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:49:37.625+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:49:37.625+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:49:37.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.071 seconds
+[2024-11-26T13:50:08.133+0000] {processor.py:161} INFO - Started process (PID=909) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:50:08.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:50:08.133+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:08.133+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:50:08.141+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:50:08.158+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:08.158+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:50:08.172+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:08.172+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:50:08.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.061 seconds
+[2024-11-26T13:50:38.858+0000] {processor.py:161} INFO - Started process (PID=922) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:50:38.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:50:38.876+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:38.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:50:38.884+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:50:38.901+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:38.901+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:50:38.915+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:50:38.914+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:50:38.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.071 seconds
+[2024-11-26T13:51:09.345+0000] {processor.py:161} INFO - Started process (PID=935) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:51:09.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:51:09.346+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:09.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:51:09.354+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:51:09.371+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:09.371+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:51:09.384+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:09.384+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:51:09.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T13:51:39.910+0000] {processor.py:161} INFO - Started process (PID=948) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:51:39.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:51:39.913+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:39.913+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:51:39.921+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:51:39.938+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:39.938+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:51:39.952+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:51:39.951+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:51:39.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.065 seconds
+[2024-11-26T13:52:10.466+0000] {processor.py:161} INFO - Started process (PID=961) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:52:10.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:52:10.467+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:10.466+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:52:10.474+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:52:10.491+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:10.491+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:52:10.505+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:10.505+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:52:10.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.104 seconds
+[2024-11-26T13:52:40.950+0000] {processor.py:161} INFO - Started process (PID=974) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:52:40.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:52:40.959+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:40.959+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:52:40.967+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:52:40.984+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:40.984+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:52:40.997+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:52:40.997+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:52:41.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.061 seconds
+[2024-11-26T13:53:11.496+0000] {processor.py:161} INFO - Started process (PID=987) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:53:11.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:53:11.497+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:11.496+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:53:11.504+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:53:11.521+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:11.521+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:53:11.535+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:11.534+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:53:11.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.080 seconds
+[2024-11-26T13:53:42.086+0000] {processor.py:161} INFO - Started process (PID=1000) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:53:42.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:53:42.092+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:42.092+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:53:42.099+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:53:42.116+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:42.116+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:53:42.129+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:53:42.129+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:53:42.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.176 seconds
+[2024-11-26T13:54:12.733+0000] {processor.py:161} INFO - Started process (PID=1013) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:54:12.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:54:12.734+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:12.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:54:12.742+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:54:12.759+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:12.759+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:54:12.772+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:12.772+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:54:12.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.060 seconds
+[2024-11-26T13:54:43.207+0000] {processor.py:161} INFO - Started process (PID=1026) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:54:43.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:54:43.208+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:43.208+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:54:43.216+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:54:43.233+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:43.233+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:54:43.246+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:54:43.246+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:54:43.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.079 seconds
+[2024-11-26T13:55:13.668+0000] {processor.py:161} INFO - Started process (PID=1039) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:55:13.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:55:13.669+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:13.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:55:13.677+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:55:13.694+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:13.694+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:55:13.708+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:13.708+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:55:13.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.090 seconds
+[2024-11-26T13:55:44.282+0000] {processor.py:161} INFO - Started process (PID=1052) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:55:44.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:55:44.305+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:44.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:55:44.313+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:55:44.330+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:44.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:55:44.343+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:55:44.343+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:55:44.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.081 seconds
+[2024-11-26T13:56:14.737+0000] {processor.py:161} INFO - Started process (PID=1065) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:56:14.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:56:14.737+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:14.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:56:14.745+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:56:14.762+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:14.762+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:56:14.776+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:14.776+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:56:14.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.058 seconds
+[2024-11-26T13:56:44.938+0000] {processor.py:161} INFO - Started process (PID=1078) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:56:44.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:56:44.947+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:44.947+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:56:44.955+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:56:44.972+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:44.971+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:56:44.984+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:56:44.984+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:56:45.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.077 seconds
+[2024-11-26T13:57:15.489+0000] {processor.py:161} INFO - Started process (PID=1091) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:57:15.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:57:15.490+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:15.490+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:57:15.498+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:57:15.516+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:15.516+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:57:15.530+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:15.529+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:57:15.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.068 seconds
+[2024-11-26T13:57:45.984+0000] {processor.py:161} INFO - Started process (PID=1104) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:57:45.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:57:45.990+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:45.990+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:57:45.998+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:57:46.016+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:46.015+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:57:46.028+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:57:46.028+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:57:46.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.077 seconds
+[2024-11-26T13:58:16.536+0000] {processor.py:161} INFO - Started process (PID=1117) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:58:16.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:58:16.537+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:16.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:58:16.545+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:58:16.562+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:16.562+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:58:16.576+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:16.576+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:58:16.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.058 seconds
+[2024-11-26T13:58:47.052+0000] {processor.py:161} INFO - Started process (PID=1130) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:58:47.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:58:47.138+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:47.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:58:47.146+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:58:47.167+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:47.167+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:58:47.187+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:58:47.187+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:58:47.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.167 seconds
+[2024-11-26T13:59:17.703+0000] {processor.py:161} INFO - Started process (PID=1143) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:59:17.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:59:17.704+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:17.704+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:59:17.711+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:59:17.729+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:17.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:59:17.742+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:17.742+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:59:17.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.101 seconds
+[2024-11-26T13:59:48.299+0000] {processor.py:161} INFO - Started process (PID=1156) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:59:48.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T13:59:48.340+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:48.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:59:48.347+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T13:59:48.364+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:48.364+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T13:59:48.378+0000] {logging_mixin.py:188} INFO - [2024-11-26T13:59:48.378+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T13:59:48.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.148 seconds
+[2024-11-26T14:00:18.931+0000] {processor.py:161} INFO - Started process (PID=1169) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:00:18.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:00:18.932+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:18.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:00:18.940+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:00:18.959+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:18.959+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:00:18.974+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:18.974+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:00:18.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.068 seconds
+[2024-11-26T14:00:49.495+0000] {processor.py:161} INFO - Started process (PID=1182) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:00:49.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:00:49.587+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:49.587+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:00:49.595+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:00:49.617+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:49.617+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:00:49.636+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:00:49.636+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:00:49.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.159 seconds
+[2024-11-26T14:01:20.118+0000] {processor.py:161} INFO - Started process (PID=1195) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:01:20.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:01:20.119+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:20.119+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:01:20.127+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:01:20.145+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:20.144+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:01:20.158+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:20.158+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:01:20.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.089 seconds
+[2024-11-26T14:01:50.702+0000] {processor.py:161} INFO - Started process (PID=1208) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:01:50.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:01:50.786+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:50.785+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:01:50.793+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:01:50.813+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:50.812+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:01:50.831+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:01:50.831+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:01:50.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.151 seconds
+[2024-11-26T14:02:21.336+0000] {processor.py:161} INFO - Started process (PID=1221) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:02:21.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:02:21.337+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:21.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:02:21.345+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:02:21.363+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:21.363+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:02:21.376+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:21.376+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:02:21.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.069 seconds
+[2024-11-26T14:02:51.902+0000] {processor.py:161} INFO - Started process (PID=1234) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:02:51.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:02:51.912+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:51.912+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:02:51.919+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:02:51.936+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:51.936+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:02:51.950+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:02:51.950+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:02:51.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.066 seconds
+[2024-11-26T14:03:22.466+0000] {processor.py:161} INFO - Started process (PID=1247) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:03:22.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:03:22.467+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:22.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:03:22.474+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:03:22.492+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:22.491+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:03:22.505+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:22.505+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:03:22.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.066 seconds
+[2024-11-26T14:03:52.987+0000] {processor.py:161} INFO - Started process (PID=1260) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:03:53.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:03:53.003+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:53.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:03:53.010+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:03:53.027+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:53.027+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:03:53.040+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:03:53.040+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:03:53.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.068 seconds
+[2024-11-26T14:04:23.531+0000] {processor.py:161} INFO - Started process (PID=1273) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:04:23.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:04:23.532+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:23.531+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:04:23.539+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:04:23.556+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:23.556+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:04:23.570+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:23.570+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:04:23.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.068 seconds
+[2024-11-26T14:04:54.087+0000] {processor.py:161} INFO - Started process (PID=1286) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:04:54.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:04:54.109+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:54.109+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:04:54.117+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:04:54.134+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:54.134+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:04:54.147+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:04:54.147+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:04:54.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.076 seconds
+[2024-11-26T14:05:24.636+0000] {processor.py:161} INFO - Started process (PID=1299) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:05:24.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:05:24.637+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:24.637+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:05:24.645+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:05:24.662+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:24.662+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:05:24.675+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:24.675+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:05:24.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.059 seconds
+[2024-11-26T14:05:55.130+0000] {processor.py:161} INFO - Started process (PID=1312) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:05:55.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:05:55.219+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:55.219+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:05:55.226+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:05:55.243+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:55.243+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:05:55.256+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:05:55.256+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:05:55.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.149 seconds
+[2024-11-26T14:06:25.744+0000] {processor.py:161} INFO - Started process (PID=1325) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:06:25.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:06:25.745+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:25.745+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:06:25.752+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:06:25.770+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:25.770+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:06:25.784+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:25.784+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:06:25.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.058 seconds
+[2024-11-26T14:06:56.326+0000] {processor.py:161} INFO - Started process (PID=1338) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:06:56.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:06:56.335+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:56.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:06:56.343+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:06:56.360+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:56.360+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:06:56.374+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:06:56.373+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:06:56.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.070 seconds
+[2024-11-26T14:07:26.885+0000] {processor.py:161} INFO - Started process (PID=1351) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:07:26.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:07:26.886+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:26.886+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:07:26.894+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:07:26.911+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:26.911+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:07:26.924+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:26.924+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:07:26.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.054 seconds
+[2024-11-26T14:07:57.395+0000] {processor.py:161} INFO - Started process (PID=1364) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:07:57.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:07:57.396+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:57.396+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:07:57.404+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:07:57.421+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:57.421+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:07:57.434+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:07:57.434+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:07:57.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.071 seconds
+[2024-11-26T14:08:27.934+0000] {processor.py:161} INFO - Started process (PID=1377) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:08:27.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:08:27.935+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:27.935+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:08:27.943+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:08:27.960+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:27.960+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:08:27.973+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:27.973+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:08:27.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.065 seconds
+[2024-11-26T14:08:58.486+0000] {processor.py:161} INFO - Started process (PID=1390) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:08:58.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:08:58.487+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:58.487+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:08:58.495+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:08:58.512+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:58.512+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:08:58.526+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:08:58.526+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:08:58.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.066 seconds
+[2024-11-26T14:09:29.038+0000] {processor.py:161} INFO - Started process (PID=1403) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:09:29.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:09:29.058+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:29.058+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:09:29.065+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:09:29.081+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:29.081+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:09:29.094+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:29.094+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:09:29.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.078 seconds
+[2024-11-26T14:09:59.522+0000] {processor.py:161} INFO - Started process (PID=1416) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:09:59.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:09:59.523+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:59.522+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:09:59.530+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:09:59.548+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:59.547+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:09:59.562+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:09:59.561+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:09:59.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T14:10:30.056+0000] {processor.py:161} INFO - Started process (PID=1429) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:10:30.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:10:30.063+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:10:30.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:10:30.071+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:10:30.087+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:10:30.087+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:10:30.100+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:10:30.100+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:10:30.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.066 seconds
+[2024-11-26T14:11:00.539+0000] {processor.py:161} INFO - Started process (PID=1442) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:11:00.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:11:00.540+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:00.540+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:11:00.548+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:11:00.565+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:00.565+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:11:00.578+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:00.578+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:11:00.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.056 seconds
+[2024-11-26T14:11:31.093+0000] {processor.py:161} INFO - Started process (PID=1455) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:11:31.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:11:31.097+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:31.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:11:31.104+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:11:31.121+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:31.121+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:11:31.134+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:11:31.134+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:11:31.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.065 seconds
+[2024-11-26T14:12:01.635+0000] {processor.py:161} INFO - Started process (PID=1468) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:12:01.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:12:01.635+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:01.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:12:01.643+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:12:01.661+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:01.660+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:12:01.674+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:01.674+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:12:01.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T14:12:32.146+0000] {processor.py:161} INFO - Started process (PID=1481) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:12:32.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:12:32.193+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:32.193+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:12:32.201+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:12:32.219+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:32.219+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:12:32.232+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:12:32.232+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:12:32.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.110 seconds
+[2024-11-26T14:13:02.732+0000] {processor.py:161} INFO - Started process (PID=1494) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:13:02.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:13:02.733+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:13:02.733+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:13:02.740+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:13:02.757+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:13:02.757+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:13:02.771+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:13:02.771+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:13:02.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.067 seconds
+[2024-11-26T14:13:33.291+0000] {processor.py:161} INFO - Started process (PID=1507) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:13:33.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:13:33.299+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:13:33.299+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:13:33.307+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:13:33.324+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:13:33.324+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:13:33.338+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:13:33.338+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:13:33.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.061 seconds
+[2024-11-26T14:14:03.847+0000] {processor.py:161} INFO - Started process (PID=1520) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:14:03.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:14:03.848+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:03.848+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:14:03.856+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:14:03.874+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:03.874+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:14:03.889+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:03.888+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:14:03.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.059 seconds
+[2024-11-26T14:14:34.398+0000] {processor.py:161} INFO - Started process (PID=1533) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:14:34.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:14:34.405+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:34.405+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:14:34.413+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:14:34.431+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:34.431+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:14:34.445+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:14:34.445+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:14:34.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.062 seconds
+[2024-11-26T14:15:04.942+0000] {processor.py:161} INFO - Started process (PID=1546) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:15:04.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:15:04.943+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:04.943+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:15:04.951+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:15:04.969+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:04.968+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:15:04.982+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:04.982+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:15:04.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.061 seconds
+[2024-11-26T14:15:35.489+0000] {processor.py:161} INFO - Started process (PID=1559) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:15:35.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:15:35.502+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:35.502+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:15:35.509+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:15:35.527+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:35.526+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:15:35.540+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:15:35.540+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:15:35.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.067 seconds
+[2024-11-26T14:16:06.053+0000] {processor.py:161} INFO - Started process (PID=1572) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:16:06.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:16:06.054+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:06.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:16:06.061+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:16:06.079+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:06.078+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:16:06.093+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:06.093+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:16:06.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.056 seconds
+[2024-11-26T14:16:36.586+0000] {processor.py:161} INFO - Started process (PID=1585) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:16:36.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:16:36.598+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:36.598+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:16:36.606+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:16:36.623+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:36.623+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:16:36.636+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:16:36.636+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:16:36.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.066 seconds
+[2024-11-26T14:17:07.149+0000] {processor.py:161} INFO - Started process (PID=1598) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:17:07.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:17:07.150+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:07.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:17:07.157+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:17:07.174+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:07.174+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:17:07.188+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:07.188+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:17:07.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T14:17:37.705+0000] {processor.py:161} INFO - Started process (PID=1617) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:17:37.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:17:37.715+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:37.715+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:17:37.723+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:17:37.740+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:37.740+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:17:37.753+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:17:37.753+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:17:37.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.065 seconds
+[2024-11-26T14:18:08.276+0000] {processor.py:161} INFO - Started process (PID=1630) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:18:08.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:18:08.277+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:08.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:18:08.284+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:18:08.302+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:08.302+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:18:08.316+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:08.316+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:18:08.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.100 seconds
+[2024-11-26T14:18:38.858+0000] {processor.py:161} INFO - Started process (PID=1643) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:18:38.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:18:38.872+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:38.871+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:18:38.881+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:18:38.904+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:38.904+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:18:38.921+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:18:38.921+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:18:38.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.079 seconds
+[2024-11-26T14:19:09.341+0000] {processor.py:161} INFO - Started process (PID=1656) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:19:09.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:19:09.342+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:09.342+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:19:09.350+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:19:09.367+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:09.367+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:19:09.380+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:09.380+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:19:09.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.058 seconds
+[2024-11-26T14:19:39.897+0000] {processor.py:161} INFO - Started process (PID=1669) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:19:39.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:19:39.908+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:39.908+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:19:39.915+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:19:39.933+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:39.933+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:19:39.946+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:19:39.946+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:19:39.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.066 seconds
+[2024-11-26T14:20:10.449+0000] {processor.py:161} INFO - Started process (PID=1682) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:20:10.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:20:10.450+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:10.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:20:10.458+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:20:10.475+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:10.475+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:20:10.489+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:10.489+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:20:10.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T14:20:40.985+0000] {processor.py:161} INFO - Started process (PID=1695) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:20:41.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:20:41.004+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:41.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:20:41.011+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:20:41.029+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:41.029+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:20:41.042+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:20:41.042+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:20:41.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.075 seconds
+[2024-11-26T14:21:11.563+0000] {processor.py:161} INFO - Started process (PID=1708) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:21:11.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:21:11.564+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:11.563+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:21:11.571+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:21:11.588+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:11.588+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:21:11.601+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:11.601+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:21:11.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.060 seconds
+[2024-11-26T14:21:42.100+0000] {processor.py:161} INFO - Started process (PID=1721) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:21:42.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:21:42.110+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:42.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:21:42.118+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:21:42.136+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:42.135+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:21:42.149+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:21:42.149+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:21:42.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.068 seconds
+[2024-11-26T14:22:12.664+0000] {processor.py:161} INFO - Started process (PID=1734) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:22:12.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:22:12.665+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:12.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:22:12.673+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:22:12.690+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:12.690+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:22:12.704+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:12.704+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:22:12.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.073 seconds
+[2024-11-26T14:22:43.226+0000] {processor.py:161} INFO - Started process (PID=1747) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:22:43.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:22:43.227+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:43.227+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:22:43.235+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:22:43.252+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:43.252+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:22:43.265+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:22:43.265+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:22:43.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.058 seconds
+[2024-11-26T14:23:13.769+0000] {processor.py:161} INFO - Started process (PID=1760) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:23:13.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:23:13.770+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:13.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:23:13.778+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:23:13.796+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:13.796+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:23:13.810+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:13.810+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:23:13.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.068 seconds
+[2024-11-26T14:23:44.313+0000] {processor.py:161} INFO - Started process (PID=1773) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:23:44.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:23:44.314+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:44.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:23:44.321+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:23:44.339+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:44.339+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:23:44.352+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:23:44.352+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:23:44.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T14:24:14.865+0000] {processor.py:161} INFO - Started process (PID=1786) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:24:14.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:24:14.871+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:14.871+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:24:14.878+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:24:14.895+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:14.894+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:24:14.908+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:14.908+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:24:14.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.058 seconds
+[2024-11-26T14:24:45.408+0000] {processor.py:161} INFO - Started process (PID=1799) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:24:45.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:24:45.409+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:45.409+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:24:45.417+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:24:45.434+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:45.434+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:24:45.447+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:24:45.447+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:24:45.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.058 seconds
+[2024-11-26T14:25:15.971+0000] {processor.py:161} INFO - Started process (PID=1812) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:25:15.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:25:15.978+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:15.977+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:25:15.985+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:25:16.001+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:16.001+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:25:16.014+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:16.014+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:25:16.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.059 seconds
+[2024-11-26T14:25:46.445+0000] {processor.py:161} INFO - Started process (PID=1825) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:25:46.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:25:46.446+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:46.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:25:46.454+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:25:46.471+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:46.471+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:25:46.484+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:25:46.484+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:25:46.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T14:26:16.969+0000] {processor.py:161} INFO - Started process (PID=1838) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:26:16.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:26:16.973+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:16.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:26:16.981+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:26:16.997+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:16.997+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:26:17.011+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:17.010+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:26:17.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T14:26:47.480+0000] {processor.py:161} INFO - Started process (PID=1851) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:26:47.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:26:47.481+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:47.480+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:26:47.488+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:26:47.506+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:47.505+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:26:47.519+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:26:47.519+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:26:47.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.059 seconds
+[2024-11-26T14:27:17.976+0000] {processor.py:161} INFO - Started process (PID=1864) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:27:17.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:27:17.999+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:17.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:27:18.006+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:27:18.023+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:18.023+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:27:18.036+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:18.035+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:27:18.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.076 seconds
+[2024-11-26T14:27:48.498+0000] {processor.py:161} INFO - Started process (PID=1877) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:27:48.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:27:48.498+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:48.498+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:27:48.506+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:27:48.523+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:48.523+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:27:48.537+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:27:48.537+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:27:48.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.068 seconds
+[2024-11-26T14:28:19.049+0000] {processor.py:161} INFO - Started process (PID=1890) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:28:19.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:28:19.156+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:19.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:28:19.164+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:28:19.183+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:19.183+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:28:19.199+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:19.199+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:28:19.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.171 seconds
+[2024-11-26T14:28:49.716+0000] {processor.py:161} INFO - Started process (PID=1903) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:28:49.716+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:28:49.717+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:49.717+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:28:49.725+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:28:49.742+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:49.742+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:28:49.755+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:28:49.755+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:28:49.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T14:29:20.197+0000] {processor.py:161} INFO - Started process (PID=1916) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:29:20.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:29:20.232+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:20.232+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:29:20.240+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:29:20.259+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:20.259+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:29:20.273+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:20.273+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:29:20.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.100 seconds
+[2024-11-26T14:29:50.779+0000] {processor.py:161} INFO - Started process (PID=1929) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:29:50.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:29:50.780+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:50.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:29:50.788+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:29:50.806+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:50.806+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:29:50.820+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:29:50.820+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:29:50.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.060 seconds
+[2024-11-26T14:30:21.328+0000] {processor.py:161} INFO - Started process (PID=1942) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:30:21.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:30:21.334+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:21.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:30:21.341+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:30:21.357+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:21.357+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:30:21.370+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:21.370+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:30:21.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.065 seconds
+[2024-11-26T14:30:51.813+0000] {processor.py:161} INFO - Started process (PID=1955) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:30:51.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:30:51.814+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:51.814+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:30:51.822+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:30:51.839+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:51.839+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:30:51.853+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:30:51.853+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:30:51.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.074 seconds
+[2024-11-26T14:31:22.363+0000] {processor.py:161} INFO - Started process (PID=1968) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:31:22.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:31:22.390+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:22.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:31:22.398+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:31:22.414+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:22.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:31:22.427+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:22.426+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:31:22.455+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.096 seconds
+[2024-11-26T14:31:52.945+0000] {processor.py:161} INFO - Started process (PID=1981) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:31:52.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:31:52.946+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:52.945+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:31:52.954+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:31:52.971+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:52.971+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:31:52.984+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:31:52.984+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:31:52.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T14:32:23.428+0000] {processor.py:161} INFO - Started process (PID=1994) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:32:23.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:32:23.446+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:23.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:32:23.453+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:32:23.470+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:23.470+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:32:23.483+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:23.483+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:32:23.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.077 seconds
+[2024-11-26T14:32:53.931+0000] {processor.py:161} INFO - Started process (PID=2007) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:32:53.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:32:53.932+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:53.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:32:53.940+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:32:53.957+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:53.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:32:53.970+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:32:53.970+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:32:53.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.057 seconds
+[2024-11-26T14:33:24.475+0000] {processor.py:161} INFO - Started process (PID=2020) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:33:24.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:33:24.482+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:24.482+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:33:24.489+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:33:24.505+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:24.505+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:33:24.518+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:24.518+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:33:24.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.066 seconds
+[2024-11-26T14:33:55.039+0000] {processor.py:161} INFO - Started process (PID=2033) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:33:55.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:33:55.040+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:55.040+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:33:55.048+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:33:55.065+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:55.065+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:33:55.079+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:33:55.079+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:33:55.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.056 seconds
+[2024-11-26T14:34:25.592+0000] {processor.py:161} INFO - Started process (PID=2046) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:34:25.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:34:25.598+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:25.598+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:34:25.606+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:34:25.622+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:25.622+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:34:25.635+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:25.635+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:34:25.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.066 seconds
+[2024-11-26T14:34:56.113+0000] {processor.py:161} INFO - Started process (PID=2059) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:34:56.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:34:56.114+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:56.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:34:56.121+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:34:56.139+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:56.139+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:34:56.152+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:34:56.152+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:34:56.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.059 seconds
+[2024-11-26T14:35:26.646+0000] {processor.py:161} INFO - Started process (PID=2072) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:35:26.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:35:26.654+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:26.654+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:35:26.662+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:35:26.678+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:26.678+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:35:26.691+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:26.691+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:35:26.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.069 seconds
+[2024-11-26T14:35:57.105+0000] {processor.py:161} INFO - Started process (PID=2085) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:35:57.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:35:57.106+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:57.106+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:35:57.113+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:35:57.131+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:57.131+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:35:57.144+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:35:57.144+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:35:57.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.062 seconds
+[2024-11-26T14:36:27.584+0000] {processor.py:161} INFO - Started process (PID=2098) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:36:27.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:36:27.619+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:27.619+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:36:27.627+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:36:27.643+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:27.643+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:36:27.656+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:27.656+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:36:27.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.096 seconds
+[2024-11-26T14:36:58.058+0000] {processor.py:161} INFO - Started process (PID=2111) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:36:58.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:36:58.059+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:58.059+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:36:58.066+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:36:58.084+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:58.083+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:36:58.097+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:36:58.096+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:36:58.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.064 seconds
+[2024-11-26T14:37:28.591+0000] {processor.py:161} INFO - Started process (PID=2124) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:37:28.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:37:28.592+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:28.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:37:28.600+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:37:28.617+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:28.617+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:37:28.631+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:28.631+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:37:28.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.074 seconds
+[2024-11-26T14:37:59.154+0000] {processor.py:161} INFO - Started process (PID=2137) to work on /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:37:59.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AFDBT_d2.py for tasks to queue
+[2024-11-26T14:37:59.229+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:59.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:37:59.236+0000] {processor.py:840} INFO - DAG(s) 'reddit_pipeline' retrieved from /opt/airflow/dags/AFDBT_d2.py
+[2024-11-26T14:37:59.257+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:59.257+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T14:37:59.276+0000] {logging_mixin.py:188} INFO - [2024-11-26T14:37:59.276+0000] {dag.py:3954} INFO - Setting next_dagrun for reddit_pipeline to 2024-11-03 15:00:00+00:00, run_after=2024-11-10 15:00:00+00:00
+[2024-11-26T14:37:59.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AFDBT_d2.py took 0.136 seconds

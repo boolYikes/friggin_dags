@@ -23,10 +23,10 @@ with DAG(
     'commidty_pipeline',
     default_args=default_args,
     description='Extract commodity prices and load to Redshift',
-    shedule_interval='0 15 * * 0',
-    start_date=datetime(2023, 1, 1),
+    schedule_interval='0 15 * * 0',
+    start_date=datetime(2024, 11, 1), # change this on actual run
     catchup=True,
 ) as dag:
     
-    extracted = extract_commodity_data
+    extracted = extract_commodity_data()
     load_to_redshift("tunacome", extracted)
