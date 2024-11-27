@@ -8,11 +8,10 @@ a
     c. `docker compose up airflow-init` 으로 유저 생성
     d. `docker compose up`
 
-### DAG 1️⃣: 
+### DAG 1️⃣: Commodity Extraction
 i.</br>
 ii.</br>
-iii.</br>
-### DAG 2️⃣: 
+### DAG 2️⃣: Reddit Extraction
 i.</br>
 ii.</br>
 iii.</br>

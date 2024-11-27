@@ -1,0 +1,10 @@
+<Proxy US 0.20s [HTTP: High] 162.223.90.130:80>
+<Proxy US 0.21s [HTTP: High] 165.232.129.150:80>
+<Proxy US 0.26s [HTTP: High] 157.254.53.50:80>
+<Proxy US 0.38s [HTTP: High] 38.54.38.116:80>
+<Proxy US 0.39s [HTTP: High] 38.54.59.154:80>
+<Proxy US 0.49s [HTTP: High] 198.49.68.80:80>
+<Proxy US 1.90s [HTTP: High] 172.191.74.198:8080>
+<Proxy US 1.87s [HTTP: High] 97.74.87.226:80>
+<Proxy US 2.81s [HTTP: High] 23.82.137.156:80>
+<Proxy US 3.74s [HTTP: High] 65.108.9.181:80>
