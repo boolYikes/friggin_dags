@@ -17,8 +17,8 @@ ARGS = {
     'retries': 0
 }
 SYMBOLS = { # get open and volumes.
-    "Petrol": "CL=F",
-    "NG": "NG=F",
+    "Oil": "CL=F",
+    "Natrual Gas": "NG=F",
     "Gold": "GC=F",
     "Silver": "SI=F",
     "Copper": "HG=F",  

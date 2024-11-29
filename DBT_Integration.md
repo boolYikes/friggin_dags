@@ -27,4 +27,6 @@ iii.</br>
 
 ## Aftermath
 
-## Extra
+## Questions
+- How is rate limit on crawling handled in read business? Do they use proxy rotation in practice?
+- Why can't I get any proxy in KR

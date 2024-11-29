@@ -9364,3 +9364,24 @@
 [2024-11-27T18:58:20.027+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:58:20.027+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-11-27T18:58:20.041+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:58:20.041+0000] {dag.py:3954} INFO - Setting next_dagrun for countryman_dee to 2024-11-16 06:30:00+00:00, run_after=2024-11-23 06:30:00+00:00
 [2024-11-27T18:58:20.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DeesDag.py took 0.058 seconds
+[2024-11-27T18:58:50.460+0000] {processor.py:161} INFO - Started process (PID=19963) to work on /opt/airflow/dags/DeesDag.py
+[2024-11-27T18:58:50.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DeesDag.py for tasks to queue
+[2024-11-27T18:58:50.486+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:58:50.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DeesDag.py
+[2024-11-27T18:58:50.502+0000] {processor.py:840} INFO - DAG(s) 'countryman_dee' retrieved from /opt/airflow/dags/DeesDag.py
+[2024-11-27T18:58:50.514+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:58:50.514+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-27T18:58:50.527+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:58:50.527+0000] {dag.py:3954} INFO - Setting next_dagrun for countryman_dee to 2024-11-16 06:30:00+00:00, run_after=2024-11-23 06:30:00+00:00
+[2024-11-27T18:58:50.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DeesDag.py took 0.091 seconds
+[2024-11-27T18:59:20.972+0000] {processor.py:161} INFO - Started process (PID=19977) to work on /opt/airflow/dags/DeesDag.py
+[2024-11-27T18:59:20.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DeesDag.py for tasks to queue
+[2024-11-27T18:59:20.973+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:20.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DeesDag.py
+[2024-11-27T18:59:20.988+0000] {processor.py:840} INFO - DAG(s) 'countryman_dee' retrieved from /opt/airflow/dags/DeesDag.py
+[2024-11-27T18:59:20.999+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:20.999+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-27T18:59:21.012+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:21.012+0000] {dag.py:3954} INFO - Setting next_dagrun for countryman_dee to 2024-11-16 06:30:00+00:00, run_after=2024-11-23 06:30:00+00:00
+[2024-11-27T18:59:21.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DeesDag.py took 0.061 seconds
+[2024-11-27T18:59:51.508+0000] {processor.py:161} INFO - Started process (PID=19991) to work on /opt/airflow/dags/DeesDag.py
+[2024-11-27T18:59:51.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/DeesDag.py for tasks to queue
+[2024-11-27T18:59:51.512+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:51.512+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/DeesDag.py
+[2024-11-27T18:59:51.527+0000] {processor.py:840} INFO - DAG(s) 'countryman_dee' retrieved from /opt/airflow/dags/DeesDag.py
+[2024-11-27T18:59:51.540+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:51.540+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-27T18:59:51.556+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:51.556+0000] {dag.py:3954} INFO - Setting next_dagrun for countryman_dee to 2024-11-16 06:30:00+00:00, run_after=2024-11-23 06:30:00+00:00
+[2024-11-27T18:59:51.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/DeesDag.py took 0.078 seconds

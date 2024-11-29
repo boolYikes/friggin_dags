@@ -9357,3 +9357,24 @@
 [2024-11-27T18:58:25.601+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:58:25.601+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-11-27T18:58:25.614+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:58:25.613+0000] {dag.py:3954} INFO - Setting next_dagrun for UpdateSymbol_v3 to 2024-11-26 18:10:00+00:00, run_after=2024-11-27 18:10:00+00:00
 [2024-11-27T18:58:25.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/UpdateSymbol_v3.py took 0.338 seconds
+[2024-11-27T18:58:55.791+0000] {processor.py:161} INFO - Started process (PID=19974) to work on /opt/airflow/dags/UpdateSymbol_v3.py
+[2024-11-27T18:58:55.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/UpdateSymbol_v3.py for tasks to queue
+[2024-11-27T18:58:55.792+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:58:55.792+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateSymbol_v3.py
+[2024-11-27T18:58:56.052+0000] {processor.py:840} INFO - DAG(s) 'UpdateSymbol_v3' retrieved from /opt/airflow/dags/UpdateSymbol_v3.py
+[2024-11-27T18:58:56.067+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:58:56.067+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-27T18:58:56.080+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:58:56.080+0000] {dag.py:3954} INFO - Setting next_dagrun for UpdateSymbol_v3 to 2024-11-26 18:10:00+00:00, run_after=2024-11-27 18:10:00+00:00
+[2024-11-27T18:58:56.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/UpdateSymbol_v3.py took 0.305 seconds
+[2024-11-27T18:59:26.304+0000] {processor.py:161} INFO - Started process (PID=19988) to work on /opt/airflow/dags/UpdateSymbol_v3.py
+[2024-11-27T18:59:26.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/UpdateSymbol_v3.py for tasks to queue
+[2024-11-27T18:59:26.305+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:26.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateSymbol_v3.py
+[2024-11-27T18:59:26.565+0000] {processor.py:840} INFO - DAG(s) 'UpdateSymbol_v3' retrieved from /opt/airflow/dags/UpdateSymbol_v3.py
+[2024-11-27T18:59:26.580+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:26.580+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-27T18:59:26.592+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:26.592+0000] {dag.py:3954} INFO - Setting next_dagrun for UpdateSymbol_v3 to 2024-11-26 18:10:00+00:00, run_after=2024-11-27 18:10:00+00:00
+[2024-11-27T18:59:26.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/UpdateSymbol_v3.py took 0.304 seconds
+[2024-11-27T18:59:56.829+0000] {processor.py:161} INFO - Started process (PID=20002) to work on /opt/airflow/dags/UpdateSymbol_v3.py
+[2024-11-27T18:59:56.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/UpdateSymbol_v3.py for tasks to queue
+[2024-11-27T18:59:56.830+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:56.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateSymbol_v3.py
+[2024-11-27T18:59:57.090+0000] {processor.py:840} INFO - DAG(s) 'UpdateSymbol_v3' retrieved from /opt/airflow/dags/UpdateSymbol_v3.py
+[2024-11-27T18:59:57.104+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:57.104+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-27T18:59:57.117+0000] {logging_mixin.py:188} INFO - [2024-11-27T18:59:57.116+0000] {dag.py:3954} INFO - Setting next_dagrun for UpdateSymbol_v3 to 2024-11-26 18:10:00+00:00, run_after=2024-11-27 18:10:00+00:00
+[2024-11-27T18:59:57.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/UpdateSymbol_v3.py took 0.303 seconds
