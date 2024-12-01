@@ -1,8 +1,9 @@
 # What's this?
 - Airflow exercises.
+- It supposedly demonstrates DBT integration 🙄
 
 # Environment
-- Ubuntu 22.04 Server, 5.15.0-124-generic
+- Ubuntu 24.04 Server, 6.8.0-49-generic
 - Docker version 27.3.1, Compose v2
 
 # Setup

@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
-from airflow.providers.postgres.hooks.postgres import PostgresHook
+from plugins.getconn import get_redshift_connection
 
 from datetime import datetime
 import json, os, time, logging, re
@@ -21,13 +21,7 @@ ARGS = {
 }
 
 
-# Helper functions
-def get_redshift_connection(autocommit=True):
-    hook = PostgresHook(postgres_conn_id='redshift_conn_id')
-    conn = hook.get_conn()
-    conn.autocommit = autocommit
-    return conn.cursor()
-
+## Helper functions
 # NOTE: Flippin Redshift enforces text type to varchar(256). That's BS
 def init_table(cur: object, schema: str, table: str):
     try:
@@ -147,7 +141,7 @@ with DAG(
         bash_command=(
             """
             cd /tmp/YARS && \
-            python /tmp/YARS/src/crawl_with_proxy.py year
+            python /tmp/YARS/src/crawl_with_proxy.py week
             """
         )
     )
@@ -199,7 +193,7 @@ with DAG(
         """
         Takes schema and table as arguments and loads transformed data to redshift dw
         """
-        cur = get_redshift_connection()
+        cur = get_redshift_connection('redshift_conn_id', True)
         ti = context['ti']
         transformed = json.loads(ti.xcom_pull(key='payload_t5'))
         

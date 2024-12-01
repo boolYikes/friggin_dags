@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.decorators import task
-from airflow.providers.postgres.hooks.postgres import PostgresHook
+from plugins.getconn import get_redshift_connection
 
 from datetime import datetime, timedelta
 import yfinance as yf
@@ -29,13 +29,7 @@ SYMBOLS = { # get open and volumes.
     "Sugar": "SB=F"
 }
 
-# Helper functions
-def get_redshift_connection(autocommit=True):
-    hook = PostgresHook(postgres_conn_id='redshift_conn_id')
-    conn = hook.get_conn()
-    conn.autocommit = autocommit
-    return conn.cursor()
-
+## Helper functions
 def init_table(cur : object, schema : str, table : str, catchup : bool):
     if not catchup:
         cur.execute(f"DROP TABLE IF EXISTS {schema}.{table};")
@@ -78,7 +72,7 @@ def load_to_redshift(schema : str, table : str, extracted : list):
     """
     The second task that loads data up to RS
     """
-    cur = get_redshift_connection()
+    cur = get_redshift_connection('redshift_conn_id', True)
     try:
         cur.execute("BEGIN;")
         init_table(cur, schema, table, CATCHUP)

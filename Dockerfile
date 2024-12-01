@@ -20,5 +20,6 @@ USER airflow
 # other providers and dependencies
 RUN pip install --no-cache-dir -q yfinance pandas numpy requests Pygments aiohttp aiodns maxminddb dbt-redshift && \
     pip install -U git+https://github.com/boolYikes/ProxyBroker.git && \
-    pip install attrs==23.2.0
+    pip install attrs==23.2.0 && \
+    pip install vaderSentiment
 
