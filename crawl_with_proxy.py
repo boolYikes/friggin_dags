@@ -5,10 +5,57 @@ from yars.yars import YARS
 from yars.utils import display_results, download_image
 
 
+# YARS is great but I needed more fields from the response and didn't need the comments.
+class BetterYARS(YARS):
+
+    # with date criteria
+    def search_reddit(self, query, timeframe="none", after=None, before=None):
+        url = "https://www.reddit.com/search.json"
+        limit = {"year": 3600, "month": 300, "week": 70, "day": 10, "none": 20}[timeframe]
+        params = {"q": query, "limit": limit, "sort": "relevance", "type": "link"}
+
+        if timeframe != "none":
+            params = {"q": query, "limit": limit, "sort": "relevance", "type": "link", "t" : timeframe}
+        return self.handle_search(url, params, after, before)
+    
+    def scrape_post_details(self, link):
+        url = f"{link}.json"
+        try:
+            response = self.session.get(url, timeout=self.timeout)
+            response.raise_for_status()
+        except Exception as e:
+            print(e)
+            if response.status_code != 200:
+                return None
+
+        post_data = response.json()
+        if not isinstance(post_data, list) or len(post_data) < 2:
+            return None
+
+        main_post = post_data[0]["data"]["children"][0]["data"]
+
+        return {
+            "title": main_post["title"], 
+            "body": main_post.get("selftext", ""),
+            "score": main_post.get("score", 0),
+            "num_comments": main_post.get("num_comments", 0),
+            "created_utc": main_post.get("created_utc", 0),
+            "thumbnail_link": main_post.get("thumbnail", ""),
+            "category": main_post.get("category", ""),
+            "up_votes": main_post.get("ups", 0),
+            "up_ratio": main_post.get("upvote_ratio", 0),
+            "subreddit": main_post.get("subreddit", ""),
+            "author": main_post.get("author_fullname", "")
+        }
+
+
 # This is to be copied to the YARS directory.
 # get proxyies from the file
-with open('/tmp/YARS/example/proxies.json', 'r') as file:
-    proxies = json.load(file)
+# not using proxy anymore
+# with open('/tmp/YARS/example/proxies.json', 'r') as file:
+#     proxies = json.load(file)
+
+## CONSTANTS
 # Symbols-related keywords to search in reddit(hardcoded for test)
 SYMBOLS = [
     "Oil", "Natrual Gas", "Gold", "Silver",
@@ -16,49 +63,45 @@ SYMBOLS = [
     "Corn", "Coffee", "Sugar"
 ]
 # Search criteria
-start_date = sys.argv[1]
-end_date = sys.argv[2]
+TIMEFRAME = sys.argv[1]
 
 
 # the crawler
-def meow(proxies, symbols):
+def meow(symbols): # meow(proxies, symbols):
     time.sleep(3)
     # for every symbol
-    symbols_idx, proxies_idx = 0, 0
-    final_result = []
+    symbols_idx = 0 # , proxies_idx = 0, 0
     while symbols_idx < len(symbols):
+        final_result = []
         # init: effectively it means one proxy per one keyword
         # Have tried these and failed : # YARS(proxy="http://localhost:7531") # YARS(proxy=proxies[proxies_idx])
         # No proxy for now. let's see if i get banned :(
-        miner = YARS() 
+        miner = BetterYARS()
         # let's try this
+        # internally it is set to fetch by the order of relevance, descending and the reddit 'kind'; 'link'
         # https://www.reddit.com/search.json?q=Oil&limit=20&sort=relevance&type=link&after=1672531200&before=1673136000
 
         # get to searching
-        posts = miner.search_reddit(symbols[symbols_idx], limit=20, 
-                            after=int(datetime.strptime(start_date, "%Y-%m-%d").timestamp()), 
-                            before=int(datetime.strptime(end_date, "%Y-%m-%d").timestamp())
-        )
+        posts = miner.search_reddit(symbols[symbols_idx], TIMEFRAME)
+
         for post in posts:
-            final_result.append({
-                "title": post.get("title", ""),
-                "author": post.get("author", ""),
-                "created_utc": post.get("created_utc", ""),
-                "num_comments": post.get("num_comments", 0),
-                "score": post.get("score", 0),
-                "permalink": post.get("permalink", ""),
-                "image_url": post.get("image_url", ""),
-                "thumbnail_url": post.get("thumbnail_url", ""),
-            })
+            link = post.get("link", "")
+            details = miner.scrape_post_details(link + ".json")
+            scraped = {"link": link, "search_key": symbols[symbols_idx]} | details
+            final_result.append(scraped)
             
+            time.sleep(1)
         # save to json part
         filename = f"/tmp/YARS/example/search_result_of_{symbols[symbols_idx]}.json"
         save_to_json(final_result, filename)
 
+        # # this is for response inspection
+        # save_to_json(posts, f"/tmp/YARS/example/testjson_of_{symbols[symbols_idx]}.json")
+
         # iterate symbols
         symbols_idx += 1
         # rotate proxies
-        proxies_idx = (proxies_idx + 1) % len(proxies)
+        # proxies_idx = (proxies_idx + 1) % len(proxies)
     
 # Function to save post data to a JSON file
 def save_to_json(data, filename):
@@ -73,4 +116,4 @@ def save_to_json(data, filename):
 # Main execution
 if __name__ == "__main__":
 
-    meow(proxies, SYMBOLS)
+    meow(SYMBOLS)

@@ -4,13 +4,15 @@ from airflow.operators.bash import BashOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 
 from datetime import datetime, timedelta
-import json, os, time
+import json, os, time, requests
 
+## Just found out that reddit doesn't have a date-based filtering, but it can only fetch data by "[day|week|month|year] ago" units
+## Hence the DAG has to run every week but run with a large limit at first
 ## TODO: Reddit queries <done>
 ## TODO: don't re-install dependencies if they pre-exist
 
 # Constants
-CATCHUP = True
+CATCHUP = False
 ARGS = {
     'owner': 'airflow',
     'trigger_rule': 'all_success',
@@ -26,34 +28,48 @@ def get_redshift_connection(autocommit=True):
     conn.autocommit = autocommit
     return conn.cursor()
 
-def init_table(cur: object, schema: str, table: str, catchup: bool):
-    if not catchup:
-        cur.execute(f"DROP TABLE IF EXISTS {schema}.{table}")
-    # title, author, created_utc, num_comments, score, permalink, image_url, thumbnail_url
-    cur.execute(f"""
-        CREATE TABLE IF NOT EXISTS {schema}.{table} (
-            date date,
-            title varchar(100),
-            author varchar(50),
-            n_comments int,
-            score int,
-            link varchar(200),
-            image_url varchar(200),
-            thumbnail_url varchar(200)
-        );
-    """)
+# NOTE: Flippin Redshift enforces text type to varchar(256). That's BS
+def init_table(cur: object, schema: str, table: str):
+    try:
+        cur.execute("BEGIN;")
+        cur.execute(f"""
+            CREATE TABLE IF NOT EXISTS {schema}.{table} (
+                title text,
+                content text,
+                score int,
+                num_comments int,
+                created_utc timestamp,
+                thumbnail_link text,
+                category text,
+                up_votes int,
+                up_ratio float,
+                subreddit text,
+                author text,
+                link text,
+                search_key text,
+                collected_on timestamp default GETDATE()
+            );
+        """)
+        cur.execute(f"CREATE TEMP TABLE t AS SELECT * FROM {schema}.{table};")
+        cur.execute("COMMIT;")
+    except Exception as e:
+        print(e)
+        cur.execute("ROLLBACK;")
+        raise
 
 
 # DAG: Crawling should be done after some time of the commodities price events to be meaningful
 # I'll put 5 hourse later the day of the commodity crawling.
 # Mind that the timeframe is subjective not to mention biased!
+# NOTE: Set start_date to a week ago or you'll get banned from Reddit!
+# NOTE: First run on 2024-11-30 7pm
 with DAG(
     dag_id='reddit_pipeline',
     default_args=ARGS,
     schedule_interval='0 20 * * 0', # every sundie, 8 pm
     max_active_runs=1,
     catchup=CATCHUP,
-    start_date=datetime(2023, 1, 1), # change this on actual run
+    start_date=datetime(2024, 11, 20)
 ) as dag:
     
     ### T1
@@ -70,12 +86,19 @@ with DAG(
     ### T2
     # stdout proxy using the shift operator
     # this changes from time to time so the txt should be removed afterwards
-    get_proxy = BashOperator(
+    # not using proxy anymore. use it as a wait-between-requests
+    def procrastinate():
+        time.sleep(5)
+    get_proxy = PythonOperator(
         task_id='get_proxy',
-        bash_command="""
-            proxybroker find --types HTTP HTTPS --lvl High --countries US --strict -l 10 > /tmp/proxy.txt
-        """
+        python_callable=procrastinate
     )
+    # get_proxy = BashOperator(
+    #     task_id='get_proxy',
+    #     bash_command="""
+    #         proxybroker find --types HTTP HTTPS --lvl High --countries US --strict -l 10 > /tmp/proxy.txt
+    #     """
+    # )
     
     ### T3
     # Read the output from T2,
@@ -85,18 +108,19 @@ with DAG(
     def proxybroker_parser():
         # proxybroker seems to be async. i'll find a better way
         # https://proxybroker.readthedocs.io/en/latest/
-        time.sleep(30)
-        proxies = []
-        with open('/tmp/proxy.txt', 'rt') as f:
-            data = f.read()
-            splt = data.split('\n')
-            for line in splt:
-                if line:
-                    # prot = 'https' if 'https' in line else 'http'
-                    addr = line.split()[5].split('>')[0]
-                    # proxies.append({prot: f'{prot}://{addr}'})
-                    proxies.append(addr)
-        return json.dumps(proxies)
+        # this has become a procrastinator 
+        time.sleep(5)
+        # proxies = []
+        # with open('/tmp/proxy.txt', 'rt') as f:
+        #     data = f.read()
+        #     splt = data.split('\n')
+        #     for line in splt:
+        #         if line:
+        #             # prot = 'https' if 'https' in line else 'http'
+        #             addr = line.split()[5].split('>')[0]
+        #             # proxies.append({prot: f'{prot}://{addr}'})
+        #             proxies.append(addr)
+        # return json.dumps(proxies)
     parse_proxy = PythonOperator(
         task_id='parse_proxy',
         python_callable=proxybroker_parser
@@ -108,35 +132,49 @@ with DAG(
     # Opted not to use proxy: the plugin script's name will remain the same regardless.
     # echo '{{ ti.xcom_pull(task_ids="parse_proxy") }}' > /tmp/YARS/example/proxies.json && \
     # timeout 60s proxybroker serve --host 127.0.0.1 --http-allowed-codes --port 7531 --types HTTPS --lvl High & \
+    # NOTE: Set the parameter to 'year' for the first run and then change it to 'week'
     reddit_extraction = BashOperator(
         task_id='crawl_reddit',
         bash_command=(
             """
             cd /tmp/YARS && \
-            python /tmp/YARS/src/crawl_with_proxy.py '{{ ds }}' '{{ (execution_date + macros.timedelta(days=7)).strftime('%Y-%m-%d') }}'
+            python /tmp/YARS/src/crawl_with_proxy.py day
             """
         )
     )
 
     ### T5
-    # get the output json file, transform (need to merge them into one list)
+    # get the output json file, transform (need to merge them into one list, to be used in a insert query)
+    # this can be improved with spark by avoiding handling large things directly
     def process_reddit_data():
         """
         Transformation
         """
         basenames = list(filter(lambda x: '.json' in x, os.listdir('/tmp/YARS/example/')))
-        combined = []
+        payload = []
 
         for basename in basenames:
             fpath = os.path.join('/tmp/YARS/example/', basename)
-
             with open(fpath, 'r') as file:
                 data = json.load(file)
-
                 if isinstance(data, list):
-                    combined.extend(data)
-
-        return combined
+                    for row in data:
+                        payload.append(f"""(
+                                    '{row["title"].replace("'", "").replace('"', '').replace("\n", " ")[:250]}', 
+                                    '{row["body"].replace("'", "").replace('"', '').replace("\n", " ")[:250] if row["body"] else "null"}', 
+                                    {row["score"]}, 
+                                    {row["num_comments"]},
+                                    '{datetime.fromtimestamp(row["created_utc"]).strftime("%Y-%m-%d %H:%M:%S")}',
+                                    '{row["thumbnail_link"] if row["thumbnail_link"][:250] else "null"}',
+                                    '{row["category"].replace("'", "").replace('"', '')[:250] if row["category"] else "null"}',
+                                    {row["up_votes"]},
+                                    {row["up_ratio"]},
+                                    '{row["subreddit"].replace("'", "").replace('"', '')[:250]}',
+                                    '{row["author"]}',
+                                    '{row["link"][:250]}',
+                                    '{row["search_key"]}'
+                        )""")
+        return payload
     reddit_transformation = PythonOperator(
         task_id='reddit_transformation',
         python_callable=process_reddit_data,
@@ -152,21 +190,43 @@ with DAG(
         ti = context['ti']
         transformed = ti.xcom_pull(task_ids='reddit_transformation')
         
+        # for testing
+        import ast
+        transformed = ast.literal_eval(transformed)
+        # with open("/tmp/YARS/example/result_test.json", "w") as file:
+        #     json.dump(transformed, file, indent=4)
+        
+        init_table(cur, schema, table)
+
         try:
             cur.execute("BEGIN;")
-            init_table(cur, schema, table, CATCHUP)
             # title, author, created_utc, num_comments, score, permalink, image_url, thumbnail_url
-            for post in transformed:
-                query = f"""
-                    INSERT INTO {schema}.{table}
-                    SELECT '{post["created_utc"]}', '{post["title"]}', '{post["author"]}', {post['num_comments']}, {post['score']}, '{post["permalink"]}', '{post["image_url"]}', '{post["thumbnail_url"]}'
-                    WHERE NOT EXISTS (
-                        SELECT 1 FROM {schema}.{table}
-                        WHERE title = '{post["title"]}' AND date = '{post["created_utc"]}'
-                    )
-                """
-                cur.execute(query)
-                # reddit don't take day-offs so no weekends filtering
+            query = f"""INSERT 
+                        INTO t (title, content, score, num_comments, created_utc, thumbnail_link, category, up_votes, up_ratio, subreddit, author, link, search_key) 
+                        VALUES 
+                        """ + ",".join(transformed)
+            cur.execute(query)
+            cur.execute("COMMIT;")
+        except Exception as e:
+            print(e)
+            cur.execute("ROLLBACK;")
+            raise
+
+        # incremental 
+        # created_utc alone is not unique in this dataset so + author
+        # it seems inefficient on this dataset
+        try:
+            query = f"""
+                DELETE FROM {schema}.{table};
+                INSERT INTO {schema}.{table}
+                SELECT title, content, score, num_comments, created_utc, thumbnail_link, category, up_votes, up_ratio, subreddit, author, link, search_key
+                FROM (
+                    SELECT *, ROW_NUMBER() OVER (PARTITION BY CONCAT(created_utc, author) ORDER BY collected_on DESC) seq
+                    FROM t
+                )
+                WHERE seq = 1;
+            """
+            cur.execute(query)
             cur.execute("COMMIT;")
         except Exception as e:
             print(e)

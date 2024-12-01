@@ -7,6 +7,8 @@
 
 # Setup
 - Run ./setup.sh
+- `docker compose up`
+- Setup your connections and variables
 
 # Troubleshooting
 - Punch your monitor.
@@ -26,3 +28,5 @@
     - that's what you get for trying new things 😫
 # Todos
 - [ ] Add slack notifier
+- [ ] DBT integration
+- [ ] Tidy up DAGs and Dockerfile for unused lines and packages

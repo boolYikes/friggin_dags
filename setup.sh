@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "USER_UID=$(id -u)" > .env && docker compose up
+echo "USER_UID=$(id -u)" > .env && docker compose up airflow-init
