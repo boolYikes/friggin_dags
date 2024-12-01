@@ -11,7 +11,7 @@ class BetterYARS(YARS):
     # with date criteria
     def search_reddit(self, query, timeframe="none", after=None, before=None):
         url = "https://www.reddit.com/search.json"
-        limit = {"year": 3600, "month": 300, "week": 70, "day": 10, "none": 20}[timeframe]
+        limit = {"year": 7200, "month": 600, "week": 140, "day": 20, "none": 10}[timeframe]
         params = {"q": query, "limit": limit, "sort": "relevance", "type": "link"}
 
         if timeframe != "none":
@@ -83,14 +83,17 @@ def meow(symbols): # meow(proxies, symbols):
 
         # get to searching
         posts = miner.search_reddit(symbols[symbols_idx], TIMEFRAME)
-
+        time.sleep({"year": 60, "month": 10, "week": 3, "day": 1, "none": 1}[TIMEFRAME])
         for post in posts:
             link = post.get("link", "")
             details = miner.scrape_post_details(link + ".json")
-            scraped = {"link": link, "search_key": symbols[symbols_idx]} | details
-            final_result.append(scraped)
+            time.sleep(2)
+            if isinstance(details, dict):
+                scraped = {"link": link, "search_key": symbols[symbols_idx]} | details
+                final_result.append(scraped)
+            else:
+                continue
             
-            time.sleep(1)
         # save to json part
         filename = f"/tmp/YARS/example/search_result_of_{symbols[symbols_idx]}.json"
         save_to_json(final_result, filename)

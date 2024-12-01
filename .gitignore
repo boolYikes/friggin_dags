@@ -2,3 +2,4 @@
 test_env/
 logs/
 tests/
+dags/__pycache__/
