@@ -7,7 +7,7 @@ SELECT
     sentiment,
     created_utc,
     inference_no,
-    model_version,
+    model_variant,
     inferred_on
 FROM
     src_sentiment

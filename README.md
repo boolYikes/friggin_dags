@@ -3,7 +3,7 @@
 - It supposedly demonstrates DBT integration 🙄
 - Append-only strategy with implicit SCD(on the inference table), so no snapshot needed.
 - Seeds are for static lookups from csv etc...
-
+![alt text](image-2.png)
 # Environment
 - Ubuntu 24.04 Server, 6.8.0-49-generic
 - Docker version 27.3.1, Compose v2

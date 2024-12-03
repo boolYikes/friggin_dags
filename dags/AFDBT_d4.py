@@ -1,21 +1,21 @@
 # The final ELT layer where DBT is utilized.
 # This will demonstrate the TriggerDagRunOperator usage. (AFDBT_d3 -> AFDBT_d4)
+# It also triggers the next DAG (AFDBT_d4 -> AFDBT_d5)
 # use inference no + title + content as the composite key?
 # profiles.yml must be moved here
 
 from airflow import DAG
 from airflow.operators.bash import BashOperator
-
-from plugins.getconn import get_redshift_connection, get_hooked
+from airflow.providers.postgres.hooks.postgres import PostgresHook
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from datetime import datetime
-import json
 
 
 # CONSTANTS
 # Catchup is disabled as this one depends on the previous dag
 # Some people seem to use global cursor.
-CURSOR = get_redshift_connection('redshift_conn_id')
-CONN = json.loads(get_hooked('redshift_conn_id'))
+hook = PostgresHook(postgres_conn_id='redshift_conn_id')
+CONN = hook.get_connection('redshift_conn_id')
 DBT_PROJECT_DIR = "/opt/airflow/dbt_elt"
 ARGS = {
     'owner': 'airflow',
@@ -23,12 +23,11 @@ ARGS = {
     'description':'Performs DBT-powered ELT.',
     'retries': 0,
     'env': {
-        "DBT_USER": CONN["user"],
-        "DBT_PASSWORD": CONN["password"],
-        "DBT_SCHEMA": CONN["user"],
-        "DBT_DATABASE": CONN["dbname"],
-        "DBT_PORT": CONN["port"],
-        "DBT_HOST": CONN["host"],
+        "DBT_USER": CONN.login,
+        "DBT_PASSWORD": CONN.password,
+        "DBT_SCHEMA": CONN.login,
+        "DBT_DATABASE": CONN.schema,
+        "DBT_HOST": CONN.host,
     }
 }
 
@@ -50,21 +49,33 @@ with DAG(
     # I don't have any dependencies. It's for extensibility
     dependencies = BashOperator(
         task_id='dbt_deps',
-        bash_command=f"dbt deps --profiles-dir '{DBT_PROJECT_DIR}' --project-dir '{DBT_PROJECT_DIR}'"
+        bash_command=(
+            f"""
+                /home/airflow/.local/bin/dbt deps --profiles-dir '{DBT_PROJECT_DIR}' --project-dir '{DBT_PROJECT_DIR}'
+            """
+        )
     )
 
     ### T2
     # The actual run
     run_stuff = BashOperator(
         task_id='dbt_run',
-        bash_command=f"dbt run --profiles-dir '{DBT_PROJECT_DIR}' --project-dir '{DBT_PROJECT_DIR}'"
+        bash_command=(
+            f"""
+                /home/airflow/.local/bin/dbt run --profiles-dir '{DBT_PROJECT_DIR}' --project-dir '{DBT_PROJECT_DIR}'
+            """
+        )
     )
 
     ### T3
     # Tests
     test_stuff = BashOperator(
         task_id='dbt_test',
-        bash_command=f"dbt test --profiles-dir '{DBT_PROJECT_DIR}' --project-dir '{DBT_PROJECT_DIR}'"
+        bash_command=(
+            f"""
+                /home/airflow/.local/bin/dbt test --profiles-dir '{DBT_PROJECT_DIR}' --project-dir '{DBT_PROJECT_DIR}'
+            """
+        )
     )
 
     # ### T4
@@ -74,4 +85,10 @@ with DAG(
     #     bash_command=f'/home/airflow/.local/bin/dbt snapshot --profiles-dir {DBT_PROJECT_DIR} --project-dir {DBT_PROJECT_DIR}'
     # )
 
-    dependencies >> run_stuff >> test_stuff # >> make_snapshot
+    next_one = TriggerDagRunOperator(
+        task_id='trigger',
+        trigger_dag_id='to_google_sheet',
+        wait_for_completion=False,
+    )
+
+    dependencies >> run_stuff >> test_stuff >> next_one # >> make_snapshot

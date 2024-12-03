@@ -9,8 +9,9 @@ RUN apt update && \
     git clone https://github.com/datavorous/YARS.git /tmp/YARS && \
     mkdir -p /home/airflow/.cache/uv
 
-# crawler script
+# crawler script & gcp key
 COPY ./crawl_with_proxy.py /tmp/YARS/src/crawl_with_proxy.py
+COPY ./service_key.json /tmp/service_key.json
 
 # access control
 # chmod is not redundant!
@@ -24,5 +25,5 @@ USER airflow
 RUN pip install --no-cache-dir -q yfinance pandas numpy requests Pygments aiohttp aiodns maxminddb dbt-redshift && \
     # pip install -U git+https://github.com/boolYikes/ProxyBroker.git && \
     # pip install attrs==23.2.0 && \ 
-    pip install --no-cache-dir vaderSentiment
-
+    pip install --no-cache-dir -q vaderSentiment && \
+    pip install --no-cache-dir -q gspread oauth2client
