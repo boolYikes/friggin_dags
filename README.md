@@ -1,6 +1,8 @@
 # What's this?
 - Airflow exercises.
 - It supposedly demonstrates DBT integration 🙄
+- Append-only strategy with implicit SCD(on the inference table), so no snapshot needed.
+- Seeds are for static lookups from csv etc...
 
 # Environment
 - Ubuntu 24.04 Server, 6.8.0-49-generic
@@ -29,5 +31,6 @@
     - that's what you get for trying new things 😫
 # Todos
 - [ ] Add slack notifier
-- [ ] DBT integration
+- [x] DBT integration
 - [ ] Tidy up DAGs and Dockerfile for unused lines and packages
+- [ ] Constants refactoring

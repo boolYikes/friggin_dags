@@ -1,20 +1,18 @@
 # This DAG performs simple sentiment analyses by commencing title + content merging and feeding it to the model.
 # This is assuming that title text also can be found in the content and duping text like this would add weights to the essence of the post.
-# The next and final DAG will demonstrate sensor usage. (AFDBT_d3 -> AFDBT_d4)
-
+# This will demonstrate the TriggerDagRunOperator usage. (AFDBT_d3 -> AFDBT_d4)
 # NOTE to self: is it efficient to put task decorators outside DAG or inside DAG?
 # - and what of the cases where non-decorated tasks are placed in or outside DAG?
 # - which case is prone to dupe execution?
 
 from airflow import DAG
 from airflow.decorators import task
-from airflow.operators.python import PythonOperator
-from airflow.operators.bash import BashOperator
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from plugins.getconn import get_redshift_connection
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-from datetime import datetime, timedelta
-import json, os, time, logging, re
+from datetime import datetime
+import logging
 
 
 # Constants
@@ -25,7 +23,8 @@ ARGS = {
     'description':'Merge Reddit titles and body content and classify semtiments',
     'retries': 0
 }
-MODEL_VERSION = 0.5
+MODEL_VERSION = '0.5'
+MODEL_NAME = 'vader'
 # Used in multiple tasks hence this. cuz it's a simpleton 😁
 # Search suggests that it is not a safe approach
 # This may lead to dupe sessions and transaction race conditions
@@ -49,8 +48,26 @@ def init_table(cur, schema, table):
                 sentiment int default null,
                 created_utc timestamp,
                 inference_no bigint IDENTITY(1, 1),
-                model_version text,
+                model_variant text,
                 inferred_on timestamp default GETDATE()
+            )
+        """)
+        cur.execute("COMMIT;")
+        # TODO: add release date and performance metadata
+        cur.execute(f"""
+            CREATE TABLE IF NOT EXISTS {schema}.afdbt_model (
+                model_name text,
+                model_version text
+            )
+        """)
+        cur.execute("COMMIT;")
+        cur.execute(f"""
+            INSERT INTO {schema}.afdbt_model (model_name, model_version)
+            SELECT '{MODEL_NAME}', '{MODEL_VERSION}'
+            WHERE NOT EXISTS (
+                SELECT 1
+                FROM {schema}.afdbt_model am
+                WHERE am.model_name = '{MODEL_NAME}' AND am.model_version = '{MODEL_VERSION}'
             )
         """)
         cur.execute("COMMIT;")
@@ -72,14 +89,14 @@ def load_and_transfer(cur, schema, table):
         init_table(cur, schema, table)
         cur.execute(f"""
             INSERT INTO {schema}.{table} (
-                title, content, created_utc, model_version
+                title, content, created_utc, model_variant
             )
-            SELECT red.title, red.content, red.created_utc, {MODEL_VERSION}
+            SELECT red.title, red.content, red.created_utc, '{MODEL_NAME + ":" + MODEL_VERSION}'
             FROM {schema}.afdbt_reddit red
             WHERE NOT EXISTS (
                 SELECT 1
                 FROM {schema}.{table} inf
-                WHERE CONCAT(inf.title, inf.created_utc) = CONCAT(red.title, red.created_utc)
+                WHERE inf.title = red.title AND inf.created_utc = red.created_utc AND inf.model_variant = '{MODEL_NAME + ":" + MODEL_VERSION}'
             );
         """)
         cur.execute("COMMIT;")
@@ -97,8 +114,13 @@ def load_and_transfer(cur, schema, table):
 # division of labor?
 @task
 def thinc(cur, schema, table, signal):
+    logging.info(f'Xcom input signal received: {signal}')
     try:
-        cur.execute(f"""SELECT title, content, sentiment, inference_no FROM {schema}.{table}""")
+        cur.execute(f"""
+            SELECT title, content, sentiment, inference_no, model_variant 
+            FROM {schema}.{table}
+            WHERE model_variant = '{MODEL_NAME + ":" + MODEL_VERSION}'
+        """)
         result = cur.fetchall()
         model = SentimentIntensityAnalyzer()
         
@@ -112,7 +134,7 @@ def thinc(cur, schema, table, signal):
                 if score >= 0.05: sentiment = 1
                 elif score > -0.05: sentiment = 0
                 else: sentiment = -1
-                updated_row = (row[0], row[1], sentiment, row[3])
+                updated_row = (row[0], row[1], sentiment, row[3], row[4])
                 inferred_records.append(updated_row)
             else:
                 inferred_records.append(row)
@@ -134,12 +156,14 @@ def in_you_go(cur, schema, table, inferred):
                 UPDATE {schema}.{table}
                 SET sentiment = {row[2]}
                 WHERE inference_no = {row[3]}
+                AND model_variant = '{row[4]}'
             """)
         cur.execute("COMMIT;")
     except Exception as e:
         logging.error(e)
         cur.execute("ROLLBACK;")
         raise
+    return "Yeet"
 
 
 # D_irty A_vid G_eek
@@ -168,9 +192,19 @@ with DAG(
     )
 
     # T3
-    in_you_go(
+    yeet = in_you_go(
         cur=CURSOR,
         schema=SCHEMA,
         table=TABLE,
         inferred=inferred
     )
+
+    # T4 the trigger
+    next_one = TriggerDagRunOperator(
+        task_id='trigger',
+        trigger_dag_id='dbt_elt',
+        wait_for_completion=False,
+        conf={'yeet': yeet}
+    )
+
+    yeet.set_downstream(next_one)

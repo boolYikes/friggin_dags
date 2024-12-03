@@ -1,0 +1,24 @@
+# schema.yml in the model folder is a global definition
+
+version: 2
+
+models:
+  - name: src_sentiment
+    description: A fun and boring table
+    columns:
+      - name: inference_no
+        description: Colummmmmmmn Que rico!
+        tests:
+          - unique
+          - not_null
+
+tests:
+  - name: test_composite_uniqueness
+    description: Reddit table title + content unique test
+    sql: |
+      SELECT 'column'
+      FROM {{ ref('src_reddit') }}
+      GROUP BY CONCAT(title, content)
+      HAVING COUNT(*) > 1
+    tags: ['unique', 'composite']
+    severity: warn

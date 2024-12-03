@@ -215,10 +215,6 @@ with DAG(
             cur.execute(query)
             cur.execute("COMMIT;")
         except Exception as e:
-            logging.basicConfig(
-                filename="/tmp/YARS/example/whattheactualheck.txt",
-                level=logging.INFO
-            )
             logging.error(e)
             cur.execute("ROLLBACK;")
             raise
