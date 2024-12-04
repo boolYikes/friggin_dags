@@ -1,12 +1,14 @@
+# TODO: Account for holidays (calendar api needed)
 from airflow import DAG
 from airflow.decorators import task
+
 from plugins.getconn import get_redshift_connection
+from plugins.facepalm import send_slack_notification
 
 from datetime import datetime, timedelta
 import yfinance as yf
 import logging
 
-# TODO: Account for holidays (calendar api needed)
 
 # Constants
 CATCHUP = True
@@ -29,7 +31,14 @@ SYMBOLS = { # get open and volumes.
     "Sugar": "SB=F"
 }
 
-## Helper functions
+
+# Helper functions
+def success_callback(context):
+    send_slack_notification(context, status="success")
+
+def failure_callback(context):
+    send_slack_notification(context, status="failed")
+
 def init_table(cur : object, schema : str, table : str, catchup : bool):
     if not catchup:
         cur.execute(f"DROP TABLE IF EXISTS {schema}.{table};")
@@ -113,6 +122,8 @@ with DAG(
     max_active_runs=1,
     catchup=CATCHUP,
     start_date=datetime(2023, 1, 1), # change this on actual run
+    on_success_callback=success_callback,
+    on_failure_callback=failure_callback
 ) as dag:   
 
     # T1

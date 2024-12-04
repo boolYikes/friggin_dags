@@ -8,6 +8,9 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
+
+from plugins.facepalm import send_slack_notification
+
 from datetime import datetime
 
 
@@ -32,6 +35,14 @@ ARGS = {
 }
 
 
+# Helper functions
+def success_callback(context):
+    send_slack_notification(context, status="success")
+    
+def failure_callback(context):
+    send_slack_notification(context, status="failed")
+
+
 # DAG
 with DAG(
     tags=['ELT', 'DBT'],
@@ -41,6 +52,8 @@ with DAG(
     max_active_runs=1,
     catchup=False,
     start_date=datetime(2024, 11, 20), # Full refresh. so it does not matter
+    on_success_callback=success_callback,
+    on_failure_callback=failure_callback
 ) as dag:
     
     # Tasks

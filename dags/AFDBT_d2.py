@@ -1,15 +1,17 @@
-from airflow import DAG
-from airflow.operators.python import PythonOperator
-from airflow.operators.bash import BashOperator
-from plugins.getconn import get_redshift_connection
-
-from datetime import datetime
-import json, os, time, logging, re
-
 ## Just found out that reddit doesn't have a date-based filtering, but it can only fetch data by "[day|week|month|year] ago" units
 ## Hence the DAG has to run every week but run with a large limit at first
 ## TODO: Reddit queries <done>
 ## TODO: don't re-install dependencies if they pre-exist
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+from airflow.operators.bash import BashOperator
+
+from plugins.getconn import get_redshift_connection
+from plugins.facepalm import send_slack_notification
+
+from datetime import datetime
+import json, os, time, logging, re
+
 
 # Constants
 CATCHUP = False
@@ -21,8 +23,12 @@ ARGS = {
 }
 
 
-## Helper functions
+# Helper functions
 # NOTE: Flippin Redshift enforces text type to varchar(256). That's BS
+def success_callback(context):
+    send_slack_notification(context, status="success")
+def failure_callback(context):
+    send_slack_notification(context, status="failed")
 def init_table(cur: object, schema: str, table: str):
     try:
         cur.execute("BEGIN;")
@@ -63,7 +69,9 @@ with DAG(
     schedule_interval='0 20 * * 0', # every sundie, 8 pm
     max_active_runs=1,
     catchup=CATCHUP,
-    start_date=datetime(2024, 11, 20)
+    start_date=datetime(2024, 11, 20),
+    on_success_callback=success_callback,
+    on_failure_callback=failure_callback
 ) as dag:
     
     ### T1

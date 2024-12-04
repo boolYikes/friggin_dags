@@ -1,12 +1,15 @@
 # This DAG will demonstrate redering DB contents to google sheets
 # 😁
-import gspread
-import logging
 from airflow import DAG
-from plugins.getconn import get_redshift_connection
 from airflow.operators.python import PythonOperator
+
+from plugins.getconn import get_redshift_connection
+from plugins.facepalm import send_slack_notification
+
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
+import gspread
+import logging
 
 
 # Constants
@@ -16,6 +19,14 @@ ARGS = {
     'description':'Renders DB to google sheet.',
     'retries': 0,
 }
+
+
+# Helper functions
+def success_callback(context):
+    send_slack_notification(context, status="success")
+    
+def failure_callback(context):
+    send_slack_notification(context, status="failed")
 
 
 # Tasks
@@ -93,6 +104,8 @@ with DAG(
     max_active_runs=1,
     catchup=False,
     start_date=datetime(2024, 11, 20), # Full refresh. so it does not matter
+    on_success_callback=success_callback,
+    on_failure_callback=failure_callback
 ) as dag:
     
     t1 = PythonOperator(

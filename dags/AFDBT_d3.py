@@ -1,16 +1,15 @@
 # This DAG performs simple sentiment analyses by commencing title + content merging and feeding it to the model.
 # This is assuming that title text also can be found in the content and duping text like this would add weights to the essence of the post.
 # This will demonstrate the TriggerDagRunOperator usage. (AFDBT_d3 -> AFDBT_d4)
-# NOTE to self: is it efficient to put task decorators outside DAG or inside DAG?
-# - and what of the cases where non-decorated tasks are placed in or outside DAG?
-# - which case is prone to dupe execution?
 
 from airflow import DAG
 from airflow.decorators import task
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
-from plugins.getconn import get_redshift_connection
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
+from plugins.getconn import get_redshift_connection
+from plugins.facepalm import send_slack_notification
+
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from datetime import datetime
 import logging
 
@@ -35,6 +34,10 @@ TABLE = 'afdbt_sentiment'
 
 
 # Helper functions
+def success_callback(context):
+    send_slack_notification(context, status="success")
+def failure_callback(context):
+    send_slack_notification(context, status="failed")
 def init_table(cur, schema, table):
     try:
         # uses title + created_utc as composite key
@@ -174,6 +177,8 @@ with DAG(
     max_active_runs=1,
     catchup=False,
     start_date=datetime(2024, 11, 20), # Full refresh. so it does not matter
+    on_success_callback=success_callback,
+    on_failure_callback=failure_callback
 ) as dag:
 
     # T1

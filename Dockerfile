@@ -26,4 +26,5 @@ RUN pip install --no-cache-dir -q yfinance pandas numpy requests Pygments aiohtt
     # pip install -U git+https://github.com/boolYikes/ProxyBroker.git && \
     # pip install attrs==23.2.0 && \ 
     pip install --no-cache-dir -q vaderSentiment && \
-    pip install --no-cache-dir -q gspread oauth2client
+    pip install --no-cache-dir -q gspread oauth2client && \
+    pip install --no-cache-dir -q slack_sdk
