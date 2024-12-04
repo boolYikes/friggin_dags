@@ -16,7 +16,7 @@
   </a>
 </div>
 
----
+
 
 ## 🥨 What This Is
 - An Airflow *exercise*.
@@ -24,7 +24,7 @@
 - Demonstrates Google Sheets rendering
 - And Slack notification
 
----
+
 
 ## ✨ What It Does
 ![diagram](./imgs/afdbt.drawio.png)
@@ -45,21 +45,17 @@
 </details>
 <details>
   <summary style="color:lightgreen">TODOs</summary>
-    <input type="checkbox" checked name="one">
-    <label for="one">Add slack notifier</label></br>
-    <input type="checkbox" checked name="two">
-    <label for="two">Visualize on Google Sheets</label></br>
-    <input type="checkbox" checked name="three">
-    <label for="three">DBT integration</label></br>
-    <input type="checkbox" name="four">
-    <label for="four">Tidy up DAGs and Dockerfile for unused lines and packages</label></br>
-    <input type="checkbox" name="five">
-    <label for="five">Constants refactoring</label>
-    <input type="checkbox" name="six">
-    <label for="six">Try the S3 to Redshift thingy</label>
+    
+  - [x] Add slack notifier
+  - [x] Visualize on Google Sheets
+
+  - [x] DBT integration
+  - [ ] Tidy up DAGs and Dockerfile for unused lines and packages
+  - [ ] Constants refactoring
+  - [ ] Try the S3 to Redshift thingy
 </details>
 
----
+
 
 ## 🔱 The Gidup
 **Environment**</br>
@@ -87,7 +83,7 @@
 - How is rate limit on crawling handled in read business? Do they use proxy rotation in practice?
 - Why can't I get any proxy in KR
 
----
+
 
 ## 🏃🏿‍♂️ Run
 - Run ./setup.sh
