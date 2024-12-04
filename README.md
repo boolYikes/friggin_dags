@@ -95,6 +95,3 @@
 1. The crawler "<a href="https://github.com/datavorous/yars" target="_blank">YARS(Yet Another Reddit Scraper)</a>." <i>Github</i>, MIT License.
 
 2. The model "<a href="https://github.com/jane/data-visualizer" target="_blank">VADER-Sentiment-Analysis</a>." <i>GitHub</i>, MIT License.
-
-3. OpenWeatherMap. "<a href="https://openweathermap.org/api" target="_blank">Weather API</a>." Version 3.0. [Accessed: 2024-11-25].
-
