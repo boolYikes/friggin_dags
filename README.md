@@ -1,4 +1,4 @@
-<div align="center" style="background-image: url('./imgs/walp.jpg'); height: 500px; width: auto; padding-top:5px">
+<div align="center" style="background-image: url('https://w0.peakpx.com/wallpaper/569/851/HD-wallpaper-illust-art-art-illust.jpg'); height: 500px; width: auto; padding-top:5px">
   <h3 style="font-size: 2.5rem; color: #a962c9;margin-bottom: 0px">Commodity Prices</br>vs. Reddit Sentiment </h3>
   <div style="width: 70%; background: rgb(214, 214, 214); border: 1px solid rgb(214, 214, 214); height: 1px;">
     <div style="width: 70%; background:rgb(214, 214, 214); height: 100%;"></div>
