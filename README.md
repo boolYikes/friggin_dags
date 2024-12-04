@@ -1,15 +1,7 @@
-<div align="center" style="background-image: url('https://w0.peakpx.com/wallpaper/569/851/HD-wallpaper-illust-art-art-illust.jpg'); height: 500px; width: auto; padding-top:5px">
-  <h3 style="font-size: 2.5rem; color: #a962c9;margin-bottom: 0px">Commodity Prices</br>vs. Reddit Sentiment </h3>
-  <div style="width: 70%; background: rgb(214, 214, 214); border: 1px solid rgb(214, 214, 214); height: 1px;">
-    <div style="width: 70%; background:rgb(214, 214, 214); height: 100%;"></div>
-</div>
-
-  <p style="font-size: 1rem; color:rgb(220, 220, 220);">The 'no-one-wants-to-do-it-but-me' project</p>
-  <img src="./imgs/tpcat.gif" alt="Profile Image" style="margin: 10px; border-radius:50%; width:50%;">
-  <h3>A TIL Project</h3>
-</div>
-
 <div align="center" style="margin-top: 15px">
+
+![alt text](./imgs/heading.png)
+
   <a href="#" style="margin: 0 10px;">
     <img src="https://img.shields.io/badge/Airflow-blue?style=plastic&logo=apacheairflow&logoColor=white" alt="Airflow Badge">
   </a>
